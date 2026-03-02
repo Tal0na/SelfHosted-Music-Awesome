@@ -1,68 +1,158 @@
-## Adding lyrics to Navidrome
+# 🎵 Adding Lyrics to Navidrome
 
-This guide explains how Navidrome searches for and displays lyrics, and provides practical ways to add lyrics to your tracks.
+This guide explains how Navidrome searches for lyrics and how you can easily add them to your music files.
 
-**Summary:** Navidrome can use embedded lyrics in file tags (unsynchronized/USLT), or external files with the same base name as the track (e.g., `song.mp3` + `song.lrc`). The search priority is controlled by the `ND_LYRICSPRIORITY` option (default: `.lrc,.txt,embedded`).
+---
 
-1. External synchronized lyrics (.lrc)
+## ✅ Quick Overview
 
-- Create an LRC file with the same base name as the audio file and place it in the same folder. Example: if the audio file is `01 - My Song.mp3`, name the lyrics file `01 - My Song.lrc`.
-- Simple LRC format (timestamps in mm:ss.xx or [mm:ss.xx]):
+Navidrome supports:
 
-  [00:12.00] First line of lyrics
-  [00:34.50] Second line of lyrics
+- 📄 External lyric files (`.lrc` or `.txt`)
+- 🏷️ Embedded lyrics inside audio file tags
 
-- Navidrome will display synchronized lyrics if the `.lrc` extension is included in `ND_LYRICSPRIORITY`.
+By default, Navidrome searches in this order:
 
-2. Embedded (unsynchronized) lyrics
 
-- For unsynchronized lyrics, place the lyrics text in the appropriate tag of the file (ID3 USLT for MP3, `LYRICS`/`UNSYNCEDLYRICS` field for Vorbis/FLAC).
-- Useful tools:
-  - `Mp3tag` (Windows): select files → `Extended Tags` → add/edit the lyrics field.
-  - `Kid3` (GUI/CLI): `Unsynchronised lyrics` field.
-  - CLI taggers: `eyeD3`, `mid3v2`, `vorbiscomment` for scripting and bulk edits.
+.lrc → .txt → embedded
 
-3. Configure lyrics priority in Navidrome
 
-- The `ND_LYRICSPRIORITY` option controls which sources are searched and in what order. Example valid values: `.lrc,.txt,embedded` (default) or `embedded,.lrc` to prefer embedded tags.
-- Configuration examples:
-  - Docker / docker-compose (in the `navidrome` service):
+This is controlled by the environment variable:
 
-  ```yaml
-  environment:
-    - ND_LYRICSPRIORITY=.lrc,.txt,embedded
-  ```
 
-  - Environment variable in Windows PowerShell (temporary for the session):
+ND_LYRICSPRIORITY
 
-  ```powershell
-  $env:ND_LYRICSPRIORITY = ".lrc,.txt,embedded"
-  Restart-Service navidrome
-  ```
 
-4. Force a library re-scan
+Default value:
 
-- After adding or editing lyrics, run a new scan so Navidrome reads the updated files: restart the service/container or use the scan option in Navidrome's admin panel (or force a re-scan by touching/modifying file dates).
 
-5. Minimal LRC example
+.lrc,.txt,embedded
 
-   [00:00.00] Intro
-   [00:15.20] Verse 1 line 1
-   [00:22.50] Verse 1 line 2
 
-6. Tips and troubleshooting
+---
 
-- Exact name: the external lyrics file must have exactly the same base name as the audio (spaces, punctuation and capitalization matter on case-sensitive filesystems).
-- Check `ND_LYRICSPRIORITY` if Navidrome doesn't find lyrics.
-- Logs: temporarily increase `ND_LOGLEVEL=debug` to see scanner messages related to lyrics.
-- If embedded lyrics don't show up, confirm the tagger wrote the correct frame (USLT for MP3, `LYRICS` field for FLAC/OGG).
+# 1️⃣ External Synced Lyrics (.lrc)
 
-Useful links:
+This is the best option if you want **synchronized (karaoke-style) lyrics**.
 
-- Navidrome config options (lyrics priority): https://www.navidrome.org/docs/usage/configuration/options/
+## 📌 Step 1 — Match the filename exactly
 
-If you want, I can:
+The lyric file must:
 
-- add example `eyeD3` / `vorbiscomment` commands for bulk-adding lyrics;
-- show a full example `docker-compose.yml` with `ND_LYRICSPRIORITY` configured.
+- Have the **same base name** as the audio file
+- Be in the **same folder**
 
+Example:
+
+
+01 - My Song.mp3
+01 - My Song.lrc
+
+
+⚠️ On Linux systems, filenames are case-sensitive.
+
+---
+
+## 📌 Step 2 — Use correct LRC format
+
+Example:
+
+
+[00:12.00] First line of lyrics
+[00:34.50] Second line of lyrics
+
+
+Format:
+
+
+[mm:ss.xx] Lyrics line
+
+
+Navidrome will automatically sync the lyrics during playback.
+
+---
+
+# 2️⃣ Embedded Lyrics (Unsynchronized)
+
+Use this if you only want **static lyrics (no timing)**.
+
+Lyrics are stored inside the audio file metadata:
+
+- MP3 → `USLT` tag  
+- FLAC / OGG → `LYRICS` or `UNSYNCEDLYRICS` field  
+
+---
+
+## 🛠 Tools to Add Embedded Lyrics
+
+### Mp3tag (Windows)
+- Open file  
+- Go to **Extended Tags**  
+- Add or edit the `LYRICS` field  
+
+### Kid3 (Windows / Linux / macOS)
+- Edit the **Unsynchronised lyrics** field  
+
+### CLI Tools (for advanced users)
+- `eyeD3`
+- `mid3v2`
+- `vorbiscomment`
+
+Useful for bulk scripting.
+
+---
+
+# 3️⃣ Configure Lyrics Priority
+
+You can change the search order using:
+
+
+ND_LYRICSPRIORITY
+
+
+Example values:
+
+
+.lrc,.txt,embedded
+embedded,.lrc
+
+
+---
+
+## 🐳 Docker Example
+
+```yaml
+services:
+  navidrome:
+    image: deluan/navidrome:latest
+    environment:
+      - ND_LYRICSPRIORITY=.lrc,.txt,embedded
+🪟 Windows PowerShell (temporary)
+$env:ND_LYRICSPRIORITY = ".lrc,.txt,embedded"
+Restart-Service navidrome
+4️⃣ Force a Library Rescan
+
+After adding lyrics:
+
+Restart Navidrome
+
+Use the Scan option in the Admin panel
+
+Modify the file date to trigger re-indexing
+
+5️⃣ Minimal LRC Example
+[00:00.00] Intro
+[00:15.20] Verse 1 line 1
+[00:22.50] Verse 1 line 2
+🔧 Troubleshooting
+
+✔️ Filenames must match exactly
+✔️ Check ND_LYRICSPRIORITY
+✔️ If embedded lyrics don’t show, confirm correct tag field
+✔️ Enable debug logs with:
+
+ND_LOGLEVEL=debug
+🔗 Useful Link
+
+Navidrome Configuration Options:
+https://www.navidrome.org/docs/usage/configuration/options/

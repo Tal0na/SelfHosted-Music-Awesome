@@ -1,73 +1,112 @@
-## Metadata — best practices for music libraries
+# 🎵 Metadata Best Practices for Music Libraries
 
-This document explains common metadata tags, format differences, and practical tips to keep a clean, searchable music library compatible with Navidrome and other servers/players.
+This guide explains essential metadata tags, format differences, and practical strategies to maintain a clean, searchable, and server-friendly music library compatible with Navidrome and other players.
 
-**Why metadata matters:** correct and consistent metadata enables accurate browsing, searching, playlists, scrobbling, and features (compilations, multi-disc albums, lyrics, cover art).
+---
 
-- **Title:** track title. (ID3: `TIT2`, Vorbis: `TITLE`)
-- **Artist:** track performing artist. For multi-artist tracks use a consistent separator (ID3: `TPE1`, Vorbis: `ARTIST`).
-- **Album:** release/album name. (ID3: `TALB`, Vorbis: `ALBUM`)
-- **Album Artist:** use for compilations to group properly (ID3: `TPE2`, Vorbis: `ALBUMARTIST`).
-- **TrackNumber / DiscNumber:** numeric order and disc index (`TRCK`, `DISCNUMBER`).
-- **Date / Year:** release date or year (`TDRC` / `DATE` / `YEAR`).
-- **Genre:** standardize genres to avoid duplicates (e.g., use `Electronic` not `Electronic;Ambient`).
-- **Composer / Conductor / Publisher:** useful for classical or soundtrack libraries.
-- **MusicBrainz IDs:** `musicbrainz_trackid`, `musicbrainz_albumid`, `musicbrainz_artistid` help with persistent identification.
-- **ReplayGain:** `replaygain_track_gain` / `replaygain_album_gain` for normalized playback where supported.
-- **Cover art:** embedded images (ID3 APIC) or sidecar `cover.jpg` per album folder—Navidrome supports both.
-- **Lyrics:** unsynchronised lyrics should use the USLT/LYRICS tag; synchronized lyrics are commonly provided as `.lrc` files.
+## 📌 Why Metadata Matters
 
-Format specifics
+Well-structured metadata ensures:
 
-- ID3 (MP3/AAC/M4A): frames like `TIT2`, `TPE1`, `TALB`, `USLT` (lyrics), `APIC` (art).
-- Vorbis/FLAC/OGG: simple key/value tags like `TITLE`, `ARTIST`, `ALBUM`, `LYRICS`.
-- MP4/M4A: tags are different (e.g., `©nam` for title) — GUI tools handle translation for you.
+- Accurate browsing and searching
+- Proper album grouping (including compilations and multi-disc releases)
+- Reliable scrobbling
+- Consistent playlist behavior
+- Correct cover art and lyrics display
+- Compatibility across servers and players
 
-Practical tips
+---
 
-- Keep `Album Artist` populated for compilations so the album groups correctly in players and Navidrome.
-- Use zero-padded track numbers for correct sorting (`01`, `02`, ...).
-- Prefer full `YYYY-MM-DD` dates when available for better sorting/filtering.
-- Avoid embedding multiple genres in a single string; use a primary genre and optionally `TCON` lists where supported.
-- Use MusicBrainz IDs if you rely on external agents (Picard, beets) — they reduce ambiguity.
+# 🏷️ Core Metadata Tags
 
-Common tools & example commands
+## Essential Fields
 
-- `beets` — automatic tagging, MusicBrainz integration:
+| Field | Purpose | ID3 (MP3/AAC) | Vorbis/FLAC |
+|-------|----------|---------------|-------------|
+| Title | Track title | `TIT2` | `TITLE` |
+| Artist | Track performing artist | `TPE1` | `ARTIST` |
+| Album | Album/release name | `TALB` | `ALBUM` |
+| Album Artist | Groups compilations correctly | `TPE2` | `ALBUMARTIST` |
+| Track Number | Track order | `TRCK` | `TRACKNUMBER` |
+| Disc Number | Disc index in multi-disc releases | `TPOS` | `DISCNUMBER` |
+| Date / Year | Release date | `TDRC` | `DATE` / `YEAR` |
+| Genre | Musical category | `TCON` | `GENRE` |
 
-  beets import /path/to/music
+---
 
-- `MusicBrainz Picard` — GUI/album-based tagger; drag-and-drop albums, save tags.
-- `Mp3tag` (Windows) — batch rename and tag operations via actions and masks.
-- CLI examples:
-  - Add unsynchronised lyrics with `eyeD3` (MP3):
+## Advanced / Recommended Fields
 
-    eyeD3 --add-lyrics="lyrics.txt" "01 - My Song.mp3"
+- **Composer / Conductor / Publisher** — important for classical and soundtrack collections.
+- **MusicBrainz IDs**
+  - `musicbrainz_trackid`
+  - `musicbrainz_albumid`
+  - `musicbrainz_artistid`
+  - Helps with persistent identification and reduces ambiguity.
+- **ReplayGain**
+  - `replaygain_track_gain`
+  - `replaygain_album_gain`
+  - Enables normalized playback where supported.
+- **Cover Art**
+  - Embedded image (`APIC` in ID3)
+  - Or sidecar `cover.jpg` inside album folder
+- **Lyrics**
+  - Unsynchronized → `USLT` (ID3) / `LYRICS`
+  - Synchronized → `.lrc` files
 
-  - Write a Vorbis tag with `vorbiscomment` (FLAC/OGG):
+---
 
-    vorbiscomment -w example.flac -t "TITLE=My Song" -t "ARTIST=Artist Name"
+# 🎧 Format-Specific Notes
 
-  - Set tags on MP4/M4A with `mp4tags` or `AtomicParsley` as appropriate.
+## ID3 (MP3 / AAC)
 
-Batch and library hygiene
+Common frames:
 
-- Run an automated tool like `beets` to normalize tags and filenames using a consistent import policy.
-- Use `dupeGuru` or similar to detect duplicates; prefer audio fingerprinting (AcoustID) when available.
-- Keep a consistent folder structure, e.g. `Artist/Album/DiscNumber - TrackNumber - Title.ext`.
+- `TIT2` — Title  
+- `TPE1` — Artist  
+- `TALB` — Album  
+- `USLT` — Lyrics  
+- `APIC` — Embedded artwork  
 
-Navidrome-specific notes
+---
 
-- Navidrome reads tags from files and respects common embedded artwork and lyrics tags. Configure `ND_LYRICSPRIORITY` to control lyric source order.
-- For best results with Navidrome features (compilations, multi-disc), ensure `albumartist`, `discnumber`, and `tracknumber` are correct.
+## Vorbis / FLAC / OGG
 
-References & further reading
+Simple key-value structure:
 
-- MusicBrainz tagging: https://musicbrainz.org/doc/Style
-- ID3v2 frames: https://id3.org/ID3v2
-- Vorbis comment specification: https://xiph.org/vorbis/doc/v-comment.html
+- `TITLE`
+- `ARTIST`
+- `ALBUM`
+- `LYRICS`
 
-If you want, I can:
+More flexible and easier to edit in bulk.
 
-- add a short `beets` config example to enforce filenames/tags;
-- provide bulk `eyeD3` / `vorbiscomment` scripts to set common tags across many files.
+---
+
+## MP4 / M4A
+
+Uses different internal atoms:
+
+- `©nam` — Title  
+- `©ART` — Artist  
+- `©alb` — Album  
+
+GUI tools automatically translate these for you.
+
+---
+
+# ✅ Practical Tagging Tips
+
+- Always fill **Album Artist** for compilations.
+- Use zero-padded track numbers: `01`, `02`, `03`.
+- Prefer full dates: `YYYY-MM-DD`.
+- Avoid mixing multiple genres in a single string.
+- Use MusicBrainz IDs when relying on automated tools.
+- Keep consistent separators for multi-artist tracks.
+
+---
+
+# 🛠 Recommended Tools
+
+## beets (CLI, automated)
+
+Powerful importer with MusicBrainz integration.

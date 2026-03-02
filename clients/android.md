@@ -2,8 +2,6 @@ Best Android clients for Navidrome
 
 ## 🔳 App Comparison Grid
 
-## 🔳 App Comparison Grid
-
 | App | License | Open Source | Price | ⭐ Rating | Last Update | Highlights |
 |-----|----------|-------------|--------|-----------|-------------|------------|
 | **Symfonium** | Proprietary | ❌ No | 💰 Paid (one-time purchase, trial available) | ⭐⭐⭐⭐⭐ | ~Nov 2025 | Advanced features, Android Auto, Chromecast, offline caching, highly polished UI |

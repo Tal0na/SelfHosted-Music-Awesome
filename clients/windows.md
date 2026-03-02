@@ -1,8 +1,10 @@
 Best Windows clients for Navidrome
 
-- **Navidrome Web UI (browser)** — FOSS. The built-in web interface is cross-platform and recommended for desktop use.
-- **Subsonic Desktop Player / Subsonic-compatible players** — Paid or free variants exist; many desktop players support Subsonic APIs (check project pages for license/pricing).
-- **Third-party Electron wrappers** — Some community projects package the web UI as a desktop app; licensing varies.
+| Client         | License | Open Source | Price   | ⭐ Rating  | Last Update                        | Notes                                                                                                                 |
+| -------------- | ------- | ----------- | ------- | ---------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| **Feishin**    | GPL-3.0 | ✅ Yes      | 🆓 Free | ⭐⭐⭐⭐⭐ | ~Feb 2026 (v1.6.0 beta)            | Modern UI, Navidrome/Jellyfin support, active rewrite & recent beta releases 🛠️ |
+| **Supersonic** | GPL-3.0 | ✅ Yes      | 🆓 Free | ⭐⭐⭐⭐☆  | **Oct 26, 2025 (v0.19.0 release)** | Lightweight desktop client; Subsonic/OpenSubsonic API support 👍           |
+
 
 Notes:
 
