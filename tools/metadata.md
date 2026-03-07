@@ -1,6 +1,6 @@
 # 🎵 Metadata Best Practices for Music Libraries
 
-This guide explains essential metadata tags, format differences, and practical strategies to maintain a clean, searchable, and server-friendly music library compatible with Navidrome and other players.
+This guide explains essential metadata tags, format differences, and practical strategies to maintain a clean, searchable, and server-friendly music library compatible with Selfhost Music and other players.
 
 ---
 
@@ -17,20 +17,20 @@ Well-structured metadata ensures:
 
 ---
 
-# 🏷️ Core Metadata Tags
+## 🏷️ Core Metadata Tags
 
 ## Essential Fields
 
-| Field | Purpose | ID3 (MP3/AAC) | Vorbis/FLAC |
-|-------|----------|---------------|-------------|
-| Title | Track title | `TIT2` | `TITLE` |
-| Artist | Track performing artist | `TPE1` | `ARTIST` |
-| Album | Album/release name | `TALB` | `ALBUM` |
-| Album Artist | Groups compilations correctly | `TPE2` | `ALBUMARTIST` |
-| Track Number | Track order | `TRCK` | `TRACKNUMBER` |
-| Disc Number | Disc index in multi-disc releases | `TPOS` | `DISCNUMBER` |
-| Date / Year | Release date | `TDRC` | `DATE` / `YEAR` |
-| Genre | Musical category | `TCON` | `GENRE` |
+| Field        | Purpose                           | ID3 (MP3/AAC) | Vorbis/FLAC     |
+| ------------ | --------------------------------- | ------------- | --------------- |
+| Title        | Track title                       | `TIT2`        | `TITLE`         |
+| Artist       | Track performing artist           | `TPE1`        | `ARTIST`        |
+| Album        | Album/release name                | `TALB`        | `ALBUM`         |
+| Album Artist | Groups compilations correctly     | `TPE2`        | `ALBUMARTIST`   |
+| Track Number | Track order                       | `TRCK`        | `TRACKNUMBER`   |
+| Disc Number  | Disc index in multi-disc releases | `TPOS`        | `DISCNUMBER`    |
+| Date / Year  | Release date                      | `TDRC`        | `DATE` / `YEAR` |
+| Genre        | Musical category                  | `TCON`        | `GENRE`         |
 
 ---
 
@@ -55,17 +55,17 @@ Well-structured metadata ensures:
 
 ---
 
-# 🎧 Format-Specific Notes
+## 🎧 Format-Specific Notes
 
 ## ID3 (MP3 / AAC)
 
 Common frames:
 
-- `TIT2` — Title  
-- `TPE1` — Artist  
-- `TALB` — Album  
-- `USLT` — Lyrics  
-- `APIC` — Embedded artwork  
+- `TIT2` — Title
+- `TPE1` — Artist
+- `TALB` — Album
+- `USLT` — Lyrics
+- `APIC` — Embedded artwork
 
 ---
 
@@ -86,15 +86,15 @@ More flexible and easier to edit in bulk.
 
 Uses different internal atoms:
 
-- `©nam` — Title  
-- `©ART` — Artist  
-- `©alb` — Album  
+- `©nam` — Title
+- `©ART` — Artist
+- `©alb` — Album
 
 GUI tools automatically translate these for you.
 
 ---
 
-# ✅ Practical Tagging Tips
+## ✅ Practical Tagging Tips
 
 - Always fill **Album Artist** for compilations.
 - Use zero-padded track numbers: `01`, `02`, `03`.
@@ -105,7 +105,7 @@ GUI tools automatically translate these for you.
 
 ---
 
-# 🛠 Recommended Tools
+## 🛠 Recommended Tools
 
 ## beets (CLI, automated)
 

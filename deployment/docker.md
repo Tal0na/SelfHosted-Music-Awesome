@@ -1,6 +1,6 @@
-# 🐳 Navidrome with Docker & Docker Compose
+# 🐳 Selfhost Music with Docker & Docker Compose
 
-A lightweight, self-hosted music server and streamer. This guide covers setting up Navidrome using Docker or Docker Compose, including support for external plugins.
+A lightweight, self-hosted music server and streamer. This guide covers setting up Selfhost Music using Docker or Docker Compose, including support for external plugins.
 
 ---
 
@@ -12,7 +12,7 @@ If you prefer running a single command to get things moving, follow these steps.
 
 First, set up the folders where your data and music will live.
 
-mkdir -p ~/navidrome/data ~/navidrome/music ~/navidrome/plugins
+mkdir -p ~/selfhost-music/data ~/selfhost-music/music ~/selfhost-music/plugins
 
 data: Database and internal configurations.
 
@@ -24,50 +24,46 @@ plugins: External binary plugins.
 Run the following command to pull the image and start the server:
 
 docker run -d \
-  --name navidrome \
-  -p 4533:4533 \
-  -v ~/navidrome/data:/data \
-  -v ~/navidrome/music:/music \
-  -v ~/navidrome/plugins:/plugins \
-  -e ND_SCANINTERVAL=1h \
-  -e ND_LOGLEVEL=info \
-  --restart unless-stopped \
-  deluan/navidrome:latest
+ --name selfhost-music \
+ -p 4533:4533 \
+ -v ~/selfhost-music/data:/data \
+ -v ~/selfhost-music/music:/music \
+ -v ~/selfhost-music/plugins:/plugins \
+ -e ND_SCANINTERVAL=1h \
+ -e ND_LOGLEVEL=info \
+ --restart unless-stopped \
+ deluan/navidrome:latest
 
 🔌 Adding Plugins
-Navidrome allows external plugins for metadata or integration. Here is how to install them:
+Selfhost Music allows external plugins for metadata or integration. Here is how to install them:
 
 1 Download the plugin binary.
 
-2 Move it to the plugins folder: ~/navidrome/plugins/
+2 Move it to the plugins folder: ~/selfhost-music/plugins/
 
 3 Make it executable:
 chmod +x ~/navidrome/plugins/your-plugin-name
 
 4 Restart the container to apply changes:
-docker restart navidrome
+docker restart selfhost-music
 
 🐳 Option 2 — Docker Compose (Recommended)
 Docker Compose is the best way to manage your stack for long-term use.
 
-1️⃣ Create docker-compose.yml Navigate to your ~/navidrome/ folder and create the file:
+1️⃣ Create docker-compose.yml Navigate to your ~/selfhost-music/ folder and create the file:
 
 services:
-  navidrome:
-    image: deluan/navidrome:latest
-    container_name: navidrome
-    user: 1000:1000 # Recommended: adjust to your UID/GID
-    ports:
-      - "4533:4533"
-    restart: unless-stopped
-    environment:
-      ND_SCANINTERVAL: 1h
-      ND_LOGLEVEL: info
-      ND_BASEURL: ""
-    volumes:
-      - ./data:/data
-      - ./music:/music:ro  # Read-only for safety
-      - ./plugins:/plugins
+selfhost-music:
+image: deluan/navidrome:latest
+container_name: selfhost-music
+user: 1000:1000 # Recommended: adjust to your UID/GID
+ports: - "4533:4533"
+restart: unless-stopped
+environment:
+ND_SCANINTERVAL: 1h
+ND_LOGLEVEL: info
+ND_BASEURL: ""
+volumes: - ./data:/data - ./music:/music:ro # Read-only for safety - ./plugins:/plugins
 
 2️⃣ Management Commands
 
@@ -79,9 +75,9 @@ View Logs: docker compose logs -f
 
 navidrome/
 ├── docker-compose.yml
-├── data/          # Auto-generated database files
-├── music/         # Drop your albums here
-└── plugins/       # External plugin binaries
+├── data/ # Auto-generated database files
+├── music/ # Drop your albums here
+└── plugins/ # External plugin binaries
 ⚙️ Useful Environment VariablesVariableDescriptionExample
 
 ND_SCANINTERVALHow often to scan for new music.1h, 30m

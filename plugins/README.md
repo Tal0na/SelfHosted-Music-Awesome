@@ -1,89 +1,53 @@
-# 🎵 Navidrome Power Plugins Pack
+# 🎵 Self-Hosted Music Tools & Plugins
 
-> A curated collection of high-quality community plugins that extend Navidrome with lyrics, Discord integration, AI discovery, and ListenBrainz automation.
+A curated collection of **plugins, tools and integrations** that extend self-hosted music servers like **Navidrome** and **Jellyfin**.
 
----
+These plugins can add features such as:
 
-## 📚 Official Documentation
-
-Before installing any plugin, read the official Navidrome plugin documentation:
-
-🔗 https://www.navidrome.org/docs/usage/features/plugins/
-
----
-
-## 🔗 Quick Access
-
-| Plugin | Description |
-|--------|------------|
-| 🧩 [navidrome-lrclib-plugin](https://github.com/kepelet/navidrome-lrclib-plugin) | Automatic lyrics fetching |
-| 🎮 [discord-rich-presence-plugin](https://github.com/navidrome/discord-rich-presence-plugin) | Discord Rich Presence integration |
-| 🤖 [AudioMuse-AI-NV-plugin](https://github.com/NeptuneHub/AudioMuse-AI-NV-plugin) | AI-powered music discovery |
-| 🧠 [navidrome-listenbrainz-daily-playlist](https://github.com/kgarner7/navidrome-listenbrainz-daily-playlist) | Daily playlists from ListenBrainz |
+- Lyrics fetching
+- Discord Rich Presence
+- AI music discovery
+- Automatic playlists
+- Scrobbling integrations
+- Metadata enrichment
 
 ---
 
-# 📦 Plugins Overview
+## 🔌 Navidrome Plugins
+
+Community plugins and tools built specifically for **Navidrome**.
+
+➡️ See the full list here:  
+**[Navidrome Plugins](/plugins/Pluguins-for-Navidrome.md)**
+
+Examples include tools for:
+
+- lyrics providers
+- Discord integrations
+- AI discovery
+- playlist automation
+- ListenBrainz / Last.fm integrations
 
 ---
 
-## 🧩 navidrome-lrclib-plugin
-Automatically fetches and stores song lyrics during library scans.
+## 🟣 Jellyfin Music Plugins
 
-**Highlights**
-- Fetches from LRCLIB-compatible servers  
-- Stores lyrics in Navidrome metadata  
-- Supports synced lyrics (.lrc)  
+Tools and integrations that enhance the **Jellyfin music experience**.
 
-**Best for:** Users who want automatic lyrics without manual files.
+➡️ See the full list here:  
+**[Jellyfin Music Plugins](/plugins/plugins-for-jellyfin.md)**
 
----
+Examples include:
 
-## 🎮 discord-rich-presence-plugin
-Displays currently playing music in Discord Rich Presence.
-
-**Highlights**
-- Track name, artist & album artwork  
-- Real-time playback progress  
-- Auto-clears when playback stops  
-- Per-user support  
-
-**Best for:** Sharing your listening activity live on Discord.
+- scrobbling tools
+- lyrics integrations
+- Discord presence
+- music metadata tools
 
 ---
 
-## 🤖 AudioMuse-AI-NV-plugin
-Adds AI-powered discovery and recommendation features.
+## ⚠️ Notes
 
-**Highlights**
-- Instant Mix (audio similarity)  
-- Artist similarity discovery  
-- AI radio mode  
-- Metadata enrichment  
-
-**Best for:** Smarter discovery without streaming services.
-
----
-
-## 🧠 navidrome-listenbrainz-daily-playlist
-Generates automatic daily playlists using ListenBrainz history.
-
-**Highlights**
-- New playlist every day  
-- Personalized from listening history  
-- Fully automated  
-
-**Best for:** Dynamic playlists based on your real listening habits.
-
----
-
-# 🛠 Installation
-
-Most plugins follow the same installation pattern.
-
-## 1️⃣ Locate Plugins Directory
-
-Default path:
-
-```bash
-/var/lib/navidrome/plugins
+- Most plugins are **community maintained**.
+- Compatibility may depend on your server version.
+- Always check the plugin repository for installation instructions.

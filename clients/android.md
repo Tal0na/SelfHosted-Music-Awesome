@@ -1,13 +1,62 @@
-# Best Android clients for Navidrome
+# 📱 Best Android Clients for Selfhost Music
 
-## 🔳 App Comparison Grid
+A curated list of Android apps compatible with **Selfhost Music** and other Subsonic-based servers.
 
-| App | License | Open Source | Price | ⭐ Rating | Last Update | Highlights |
-|-----|----------|-------------|--------|-----------|-------------|------------|
-| **Symfonium** | Proprietary | ❌ No | 💰 Paid (one-time purchase, trial available) | ⭐⭐⭐⭐⭐ | ~Nov 2025 | Advanced features, Android Auto, Chromecast, offline caching, highly polished UI |
-| **Chora** | Apache-2.0 | ✅ Yes | 🆓 Free | ⭐⭐⭐⭐☆ | ~Oct 2025 | Modern Material 3 UI, Android Auto, offline support, actively developed |
-| **Substreamer** | Proprietary | ❌ No | 🆓 Free | ⭐⭐⭐☆☆ | ~2022-2023 | Simple interface, streaming + offline, lightweight |
+---
 
-Notes:
+## ⭐ Recommended Apps
 
-- I couldn't fully verify license/pricing for all apps from here — please confirm exact status before publishing.
+### Symfonium
+
+- **Support:** ✅ Selfhost Music / ✅ Subsonic / ✅ OpenSubsonic / ✅ Jellyfin / ✅ Plex
+- **License:** Proprietary
+- **Open Source:** ❌ No
+- **Price:** 💰 Paid (one-time purchase, trial available)
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Last Update:** ~Nov 2025
+- **Highlights:**
+  - Android Auto
+  - Chromecast / DLNA casting
+  - Offline caching
+  - Advanced equalizer
+  - Highly polished UI
+
+Symfonium can aggregate music from many sources including **Selfhost Music, Subsonic servers, Jellyfin, Plex, SMB shares and cloud storage providers**, making it one of the most feature-rich Android music clients available.
+
+---
+
+### Chora
+
+- **Support:** ✅ Selfhost Music / ✅ Subsonic / ✅ OpenSubsonic
+- **License:** Apache-2.0
+- **Open Source:** ✅ Yes
+- **Price:** 🆓 Free
+- **Rating:** ⭐⭐⭐⭐☆
+- **Last Update:** ~Oct 2025
+- **Highlights:**
+  - Modern **Material 3** UI
+  - Android Auto support
+  - Offline playback
+  - Actively developed
+
+---
+
+### Substreamer
+
+- **Support:** ✅ Selfhost Music / ✅ Subsonic
+- **License:** Proprietary
+- **Open Source:** ❌ No
+- **Price:** 🆓 Free
+- **Rating:** ⭐⭐⭐☆☆
+- **Last Update:** ~2022–2023
+- **Highlights:**
+  - Simple interface
+  - Streaming + offline playback
+  - Lightweight
+
+---
+
+## ⚠️ Notes
+
+- Licensing and pricing information may change over time.
+- Please verify the latest information in each project's repository or Play Store page before publishing.

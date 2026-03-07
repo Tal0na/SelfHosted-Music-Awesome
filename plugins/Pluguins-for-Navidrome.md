@@ -1,23 +1,54 @@
-# 🔌 Best Navidrome Plugins
+# 🔌 Best Self-Hosted Music Plugins
 
-## 🔳 Plugin Comparison
-
-| Plugin | Open Source | Price | What It Does |
-|--------|-------------|-------|---------------|
-| **Navidrome ListenBrainz Daily Playlist** | ✅ Yes | Free | Creates daily playlists from your ListenBrainz history |
-| **navidrome-lrclib-plugin** | ✅ Yes | Free | Automatically fetches & stores lyrics |
-| **discord-rich-presence-plugin** | ✅ Yes | Free | Shows what you’re playing on Discord |
-| **AudioMuse-AI-NV-plugin** | ✅ Yes | Free | Adds AI music discovery & recommendations |
+A small collection of useful plugins that extend **self-hosted music servers** like Navidrome with extra features such as lyrics, Discord presence, playlists, and AI discovery.
 
 ---
 
-## 📝 Quick Notes
+## 🧠 Navidrome ListenBrainz Daily Playlist
 
-- **ListenBrainz Daily Playlist** → Automatic dynamic playlists based on what you listen to.
-- **LRCLIB Plugin** → Keeps lyrics in your library without uploading them manually.
-- **Discord Rich Presence** → Shows your current track in Discord.
-- **AudioMuse AI** → Adds smart recommendations and discovery features.
+🔗 <https://github.com/kgarner7/navidrome-listenbrainz-daily-playlist>  
+
+- **Open Source:** ✅ Yes  
+- **Price:** Free  
+
+Creates **automatic daily playlists** based on your ListenBrainz listening history.
 
 ---
 
-> All plugins listed are open source and free. Always check the plugin repos for installation steps and extra settings.
+## 🧩 navidrome-lrclib-plugin
+
+🔗 <https://github.com/kepelet/navidrome-lrclib-plugin>  
+
+- **Open Source:** ✅ Yes  
+- **Price:** Free  
+
+Automatically **fetches and stores lyrics** for songs in your Navidrome library.
+
+---
+
+## 🎮 discord-rich-presence-plugin
+
+🔗 <https://github.com/navidrome/discord-rich-presence-plugin>  
+
+- **Open Source:** ✅ Yes  
+- **Price:** Free  
+
+Displays the **music you're currently playing in Discord Rich Presence**.
+
+---
+
+## 🤖 AudioMuse-AI-NV-plugin
+
+🔗 <https://github.com/NeptuneHub/AudioMuse-AI-NV-plugin>  
+
+- **Open Source:** ✅ Yes  
+- **Price:** Free  
+
+Adds **AI-powered discovery and recommendations** based on your music library.
+
+---
+
+## ⚠️ Notes
+
+- All plugins listed are **free and open source**.
+- Check each repository for **installation instructions and compatibility** with your server version.

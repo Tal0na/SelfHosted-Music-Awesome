@@ -1,17 +1,17 @@
-# 🎵 Adding Lyrics to Navidrome
+# 🎵 Adding Lyrics to Selfhost Music
 
-This guide explains how Navidrome searches for lyrics and how you can easily add them to your music files.
+This guide explains how Selfhost Music searches for lyrics and how you can easily add them to your music files.
 
 ---
 
 ## ✅ Quick Overview
 
-Navidrome supports:
+Selfhost Music supports:
 
 - 📄 External lyric files (`.lrc` or `.txt`)
 - 🏷️ Embedded lyrics inside audio file tags
 
-By default, Navidrome searches in this order:
+By default, Selfhost Music searches in this order:
 
 .lrc → .txt → embedded
 
@@ -25,7 +25,7 @@ Default value:
 
 ---
 
-# 1️⃣ External Synced Lyrics (.lrc)
+## 1️⃣ External Synced Lyrics (.lrc)
 
 This is the best option if you want **synchronized (karaoke-style) lyrics**.
 
@@ -56,18 +56,18 @@ Format:
 
 [mm:ss.xx] Lyrics line
 
-Navidrome will automatically sync the lyrics during playback.
+Selfhost Music will automatically sync the lyrics during playback.
 
 ---
 
-# 2️⃣ Embedded Lyrics (Unsynchronized)
+## 2️⃣ Embedded Lyrics (Unsynchronized)
 
 Use this if you only want **static lyrics (no timing)**.
 
 Lyrics are stored inside the audio file metadata:
 
-- MP3 → `USLT` tag  
-- FLAC / OGG → `LYRICS` or `UNSYNCEDLYRICS` field  
+- MP3 → `USLT` tag
+- FLAC / OGG → `LYRICS` or `UNSYNCEDLYRICS` field
 
 ---
 
@@ -75,13 +75,13 @@ Lyrics are stored inside the audio file metadata:
 
 ### Mp3tag (Windows)
 
-- Open file  
-- Go to **Extended Tags**  
-- Add or edit the `LYRICS` field  
+- Open file
+- Go to **Extended Tags**
+- Add or edit the `LYRICS` field
 
 ### Kid3 (Windows / Linux / macOS)
 
-- Edit the **Unsynchronised lyrics** field  
+- Edit the **Unsynchronised lyrics** field
 
 ### CLI Tools (for advanced users)
 
@@ -93,7 +93,7 @@ Useful for bulk scripting.
 
 ---
 
-# 3️⃣ Configure Lyrics Priority
+## 3️⃣ Configure Lyrics Priority
 
 You can change the search order using:
 
@@ -121,7 +121,7 @@ Restart-Service navidrome
 
 After adding lyrics:
 
-Restart Navidrome
+Restart Selfhost Music
 
 Use the Scan option in the Admin panel
 
@@ -141,5 +141,6 @@ Modify the file date to trigger re-indexing
 ND_LOGLEVEL=debug
 🔗 Useful Link
 
-Navidrome Configuration Options:
+Selfhost Music Configuration Options:
 https://www.navidrome.org/docs/usage/configuration/options/
+```

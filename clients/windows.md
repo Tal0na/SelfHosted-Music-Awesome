@@ -1,11 +1,43 @@
-Best Windows clients for Navidrome
+# 🖥️ Best Windows Clients for Selfhost Music
 
-| Client         | License | Open Source | Price   | ⭐ Rating  | Last Update                        | Notes                                                                                                                 |
-| -------------- | ------- | ----------- | ------- | ---------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Feishin**    | GPL-3.0 | ✅ Yes      | 🆓 Free | ⭐⭐⭐⭐⭐ | ~Feb 2026 (v1.6.0 beta)            | Modern UI, Navidrome/Jellyfin support, active rewrite & recent beta releases 🛠️ |
-| **Supersonic** | GPL-3.0 | ✅ Yes      | 🆓 Free | ⭐⭐⭐⭐☆  | **Oct 26, 2025 (v0.19.0 release)** | Lightweight desktop client; Subsonic/OpenSubsonic API support 👍           |
+A curated list of Windows desktop clients compatible with **Selfhost Music** and other Subsonic-based servers.
 
+---
 
-Notes:
+## ⭐ Recommended Clients
 
-- Verify specific desktop client licenses/pricing before listing as definitive — some projects change status over time.
+### Feishin
+
+- **Support:** ✅ Selfhost Music / ✅ Jellyfin / ✅ Subsonic / ✅ OpenSubsonic  
+- **License:** GPL-3.0  
+- **Open Source:** ✅ Yes  
+- **Price:** 🆓 Free  
+- **Rating:** ⭐⭐⭐⭐⭐  
+- **Last Update:** ~Feb 2026 (v1.6.0 beta)  
+- **Notes:**
+  - Modern desktop UI
+  - Support for multiple music servers
+  - Active development and recent beta releases
+  - Cross-platform client
+
+---
+
+### Supersonic
+
+- **Support:** ✅ Selfhost Music / ✅ Subsonic / ✅ OpenSubsonic  
+- **License:** GPL-3.0  
+- **Open Source:** ✅ Yes  
+- **Price:** 🆓 Free  
+- **Rating:** ⭐⭐⭐⭐☆  
+- **Last Update:** Oct 26, 2025 (v0.19.0 release)  
+- **Notes:**
+  - Lightweight desktop client
+  - Written in Go
+  - Focused on speed and simplicity
+
+---
+
+## ⚠️ Notes
+
+- Verify licensing and pricing details before publishing as definitive.
+- Some projects may change license or pricing model over time.

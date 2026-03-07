@@ -12,7 +12,7 @@ Self-hosted music platforms allow you to build your own personal streaming servi
 
 ## 📱 Clients
 
-Music players and applications compatible with Navidrome.
+Music players and applications compatible with Selfhost Music.
 
 - [Android Clients](clients/android.md)
 - [iOS Clients](clients/ios.md)
