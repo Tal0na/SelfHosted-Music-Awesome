@@ -10,6 +10,8 @@ This repository aims to centralize useful resources for people who host their ow
 
 Self-hosted music platforms allow you to build your own personal streaming service using your own library and infrastructure.
 
+---
+
 ## 📱 Clients
 
 Music players and applications compatible with Selfhost Music.
@@ -50,6 +52,17 @@ External services and connected platforms.
 
 ---
 
+## 📊 Scrobblers
+
+Guides for tracking your listening history using scrobbling services like **Last.fm** and **ListenBrainz**.
+
+- [Overview](scrobblers/README.md)
+- [Navidrome Scrobbling](scrobblers/navidrome.md)
+- [Jellyfin Scrobbling](scrobblers/jellyfin.md)
+- [Client-side Scrobbling](scrobblers/clients.md)
+
+---
+
 ## 🐳 Deployment
 
 Infrastructure and hosting guides.
@@ -80,4 +93,4 @@ Feel free to open issues or submit pull requests to improve this repository.
 
 ## 📜 License
 
-gnu
+GNU

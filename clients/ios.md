@@ -71,19 +71,6 @@ Clients compatible with self-hosted music servers such as:
 
 ---
 
-## 🌐 Browser Option
-
-### Mobile Browser (Safari / Chrome)
-
-- **Support:** ✅ Navidrome / ✅ Jellyfin Web UI
-- **Price:** 🆓 Free
-- **Highlights:**
-  - No app installation required
-  - Works directly with the server web interface
-  - Good fallback option
-
----
-
 ## ⚠️ Notes
 
 - These apps connect to **self-hosted music servers**, not local device libraries.
