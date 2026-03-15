@@ -13,7 +13,7 @@ A curated list of Android apps compatible with **Selfhost Music** and other Subs
 - **Open Source:** ❌ No
 - **Price:** 💰 Paid (one-time purchase, trial available)
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** ~Nov 2025
+- **Last Update:** ~2026
 - **Highlights:**
   - Android Auto
   - Android TV

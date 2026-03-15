@@ -1,6 +1,6 @@
-# 🎧 Best Linux Clients for Selfhost Music
+# 🎧 Best MacOS Clients for Selfhost Music
 
-A curated list of recommended Linux clients compatible with **Selfhost Music** and other Subsonic-compatible servers.
+A curated list of recommended MacOS clients compatible with **Selfhost Music** and other Subsonic-compatible servers.
 
 ---
 
@@ -8,7 +8,7 @@ A curated list of recommended Linux clients compatible with **Selfhost Music** a
 
 ### Feishin
 
-- **API Support:** ✅ Navidrome / ✅ Jellyfin
+- **API Support:** ✅ Navidrome / ✅ Jellyfin / ✅ OpenSubsonic
 - **License:** GPL-3.0
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free

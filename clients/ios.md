@@ -1,12 +1,6 @@
-# 🍎 Best iOS Clients for Self-Hosted Music Servers
+# 🎧 Best ios Clients for Selfhost Music
 
-Clients compatible with self-hosted music servers such as:
-
-- Navidrome
-- Jellyfin
-- Subsonic
-- Airsonic
-- OpenSubsonic compatible servers
+A curated list of recommended ios clients compatible with **Selfhost Music** and other Subsonic-compatible servers.
 
 ---
 
