@@ -12,6 +12,23 @@ Clients compatible with self-hosted music servers such as:
 
 ## ⭐ Recommended Apps
 
+### Jellify
+
+- **Support:**  ✅ Jellyfin
+- **License:** MIT License
+- **Open Source:** ✅ yes
+- **Price:** 🆓 Free
+- **Rating:** ⭐⭐⭐⭐☆
+- **Last Update:** ~01/01/2026
+- **Highlights:**
+  - Full Library Browsing
+  - Playlist support, including creating, updating, and reordering
+  - Offline Playback
+  - Google Cast Support
+  - Storage UI Manager
+
+---
+
 ### play:Sub
 
 - **Support:** ✅ Subsonic / ✅ OpenSubsonic / ✅ Navidrome

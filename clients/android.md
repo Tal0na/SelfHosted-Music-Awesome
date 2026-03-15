@@ -8,7 +8,7 @@ A curated list of Android apps compatible with **Selfhost Music** and other Subs
 
 ### Symfonium
 
-- **Support:** ✅ Selfhost Music / ✅ Subsonic / ✅ OpenSubsonic / ✅ Jellyfin / ✅ Plex
+- **Support:** ✅ Local Music / ✅ Navidrome / ✅ Subsonic / ✅ OpenSubsonic / ✅ Jellyfin / ✅ Plex / ✅ NAS
 - **License:** Proprietary
 - **Open Source:** ❌ No
 - **Price:** 💰 Paid (one-time purchase, trial available)
@@ -16,34 +16,57 @@ A curated list of Android apps compatible with **Selfhost Music** and other Subs
 - **Last Update:** ~Nov 2025
 - **Highlights:**
   - Android Auto
-  - Chromecast / DLNA casting
+  - Android TV
+  - Wear OS
+  - cast to Sonos/Chromecast/DLNA
   - Offline caching
   - Advanced equalizer
   - Highly polished UI
+  - AutoEQ
 
-Symfonium can aggregate music from many sources including **Selfhost Music, Subsonic servers, Jellyfin, Plex, SMB shares and cloud storage providers**, making it one of the most feature-rich Android music clients available.
+---
+
+### Jellify
+
+- **Support:**  ✅ Jellyfin
+- **License:** MIT License
+- **Open Source:** ✅ yes
+- **Price:** 🆓 Free
+- **Rating:** ⭐⭐⭐⭐☆
+- **Last Update:** ~01/01/2026
+- **Highlights:**
+  - Full Library Browsing
+  - Playlist support, including creating, updating, and reordering
+  - Offline Playback
+  - Google Cast Support
+  - Storage UI Manager
 
 ---
 
 ### Chora
 
-- **Support:** ✅ Selfhost Music / ✅ Subsonic / ✅ OpenSubsonic
+- **Support:** ✅ Subsonic / ✅ OpenSubsonic
 - **License:** Apache-2.0
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** ~Oct 2025
+- **Last Update:** ~15/03/2026
 - **Highlights:**
-  - Modern **Material 3** UI
-  - Android Auto support
-  - Offline playback
-  - Actively developed
+  - Android Auto.
+  - Material 3 UI.
+  - Android TV
+  - Download songs and albums from server.
+  - Internet Radio. [Metadata only from IceCast servers]
+  - Synced And Unsynced Lyrics. [From lrclib.net or self-hosted instance]
+  - Navidrome and Local playlists.
+  - Multiple Navidrome libraries.
+  - Transcoding.
 
 ---
 
 ### Substreamer
 
-- **Support:** ✅ Selfhost Music / ✅ Subsonic
+- **Support:**  ✅ Subsonic
 - **License:** Proprietary
 - **Open Source:** ❌ No
 - **Price:** 🆓 Free
