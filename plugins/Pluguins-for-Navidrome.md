@@ -11,7 +11,7 @@ A small collection of useful plugins that extend **self-hosted music servers** l
 - **Open Source:** ✅ Yes  
 - **Price:** Free  
 
-Creates **automatic daily playlists** based on your ListenBrainz listening history.
+This repository contains a plugin for fetching daily playlists from ListenBrainz
 
 ---
 
