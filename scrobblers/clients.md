@@ -7,7 +7,7 @@ This guide lists **clients that can scrobble your listening activity** from musi
 ## 🟢 Pano Scrabble
 
 - **Platform:** Android / Desktop  
-- **Support:** Navidrome, Subsonic, ListenBrainz  
+- **Support:**  ListenBrainz / last.fm / libre.fm  
 - **Open Source:** ✅ Yes  
 - **Price:** Free  
 - **Description:**  
