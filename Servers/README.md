@@ -3,7 +3,7 @@
 ## Platforms that host and stream your music library
 
 - [Navidrome](/Servers/navidrome.md) – Lightweight platform for remote streaming of your music collection, compatible with Subsonic/Airsonic.
-- [Jellyfin](/Servers/jellyfin-server.md) – Full-featured media server (music, videos, photos), open-source, with web and mobile apps.
+- [Jellyfin](/Servers/jellyfin.md) – Full-featured media server (music, videos, photos), open-source, with web and mobile apps.
 - [Plexamp](/Servers/plexamp.md) – Music-focused player for Plex; requires Plex Media Server.
 - [Airsonic](/Servers/airsonic.md) – Modern fork of Subsonic, ideal for personal streaming.
 - [Subsonic](/Servers/subsonic.md) – Classic music streaming server, basis for Airsonic.
