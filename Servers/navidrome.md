@@ -6,7 +6,7 @@ A lightweight Subsonic-compatible music server for personal streaming.
 
 ## ⭐ Features
 
-- **Support:** ✅ Navidrome / ✅ Subsonic
+- **Support:** ✅ Subsonic
 - **License:** MIT License
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
