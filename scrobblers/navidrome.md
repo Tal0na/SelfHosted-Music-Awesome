@@ -1,6 +1,6 @@
 # 🟦 Navidrome Scrobbling Guide
 
-Navidrome allows you to **track your listening activity** using scrobbling services like **ListenBrainz** and **Last.fm**.
+Navidrome allows you to **track your listening activity** and **your track Loved** using scrobbling services like **ListenBrainz** and **Last.fm**.
 
 ---
 
@@ -8,16 +8,15 @@ Navidrome allows you to **track your listening activity** using scrobbling servi
 
 ### ListenBrainz
 
+[jellyfin-plugin-listenbrainz](https://github.com/lyarenei/jellyfin-plugin-listenbrainz)
+
 - Easy to set up directly from the **Navidrome web interface**.  
-- Just enter your **ListenBrainz account credentials** and enable scrobbling.  
+- Just enter your **ListenBrainz account credentials "API key"** and enable scrobbling.  
 - Tracks will automatically be sent while you listen.
 
 ### Last.fm (Docker Users)
 
-- Slightly more complex if running Navidrome via **Docker**:
-  1. You need to set your **Last.fm API key and secret** as **environment variables** in your Docker container.  
-  2. Then log in via the **Navidrome web UI** to enable scrobbling.  
-- Once configured, Navidrome will send all played tracks to Last.fm.
+[jellyfin-plugin-lastfm](https://github.com/danielfariati/jellyfin-plugin-lastfm)
 
 ---
 
