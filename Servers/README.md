@@ -1,8 +1,8 @@
 # 🎼 Servers
 
 ## ⭐ Recommended Platforms
-- **[Navidrome](/Servers/navidrome.md)** – Lightweight platform for remote streaming of your music collection, compatible with Subsonic/Airsonic.  
 - **[Jellyfin](/Servers/jellyfin.md)** – Full-featured media server (music, videos, photos), open-source, with web and mobile apps.  
+- **[Navidrome](/Servers/navidrome.md)** – Lightweight platform for remote streaming of your music collection, compatible with Subsonic/Airsonic.  
 
 ---
 
