@@ -1,4 +1,4 @@
-# 🎧 Subsonic
+ 🎧 Subsonic
 
 Classic music streaming server, basis for Airsonic.
 
