@@ -67,7 +67,6 @@ Unofficial plugins, API-based extensions, and enhancement tools.
 
 External services and connected platforms.
 
-- [Last.fm Integration](integrations/lastfm.md)
 - [Discord Integration](integrations/discord.md)
 - [Webhooks](integrations/webhooks.md)
 
