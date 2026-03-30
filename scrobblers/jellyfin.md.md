@@ -1,19 +1,26 @@
 # 🟣 Jellyfin Scrobbling
 
+## The Last.fm and ListenBrainz plugins will export and store your scrobbles,import playlist in listembrainz and import your loved tracks into your library
+
 Jellyfin allows you to **track your listening activity** by sending it to scrobbling services such as **Last.fm** or **ListenBrainz**.  
 
 ---
 
-## 🔌 How to Enable Scrobbling
+### ListenBrainz
 
-1. **Open your Jellyfin dashboard.**  
-2. Go to **Plugins → Catalog**.  
-3. Search for the **scrobbling plugin** you want (e.g., Last.fm or ListenBrainz).  
-4. Click **Install** and wait for the plugin to finish installing.  
-5. After installation, open the plugin settings:
-   - Enter your **API key** if required.  
-   - Log in with your **scrobbling account** (Last.fm / ListenBrainz).  
-6. Save your settings and restart Jellyfin if prompted.  
+[jellyfin-plugin-listenbrainz](https://github.com/lyarenei/jellyfin-plugin-listenbrainz)
+
+- Easy to set up directly from the **Navidrome web interface**.  
+- Just enter your **ListenBrainz account credentials "API key"** and enable scrobbling.  
+- Tracks will automatically be sent while you listen.
+
+### Last.fm
+
+[jellyfin-plugin-lastfm](https://github.com/danielfariati/jellyfin-plugin-lastfm)
+
+- Easy to set up directly from the **Navidrome web interface**.  
+- Just enter your **Last.fm account credentials "API key"** and enable scrobbling.  
+- Tracks will automatically be sent while you listen.
 
 ---
 

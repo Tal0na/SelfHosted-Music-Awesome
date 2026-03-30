@@ -11,7 +11,7 @@ This guide lists **clients that can scrobble your listening activity** from musi
 - **Open Source:** ✅ Yes  
 - **Price:** Free  
 - **Description:**  
-  Pano Scrabble is a lightweight client that tracks your listening activity and sends it to scrobbling services automatically. Works well with both server-based music libraries and local playback.
+ Pano Scrobbler is a lightweight client that tracks your listening activity and sends it to scrobbling services automatically. It can also sync your loved tracks and allows you to like songs directly from the app. Works well with both server-based music libraries and local playback.
 
 ---
 

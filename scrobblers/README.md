@@ -3,6 +3,8 @@
 Scrobbling allows you to **track your listening history** and send it to services like **Last.fm** or **ListenBrainz**.  
 This helps generate statistics, recommendations, and personal listening reports.
 
+💡 Tip: You can connect your Last.fm account to ListenBrainz to import your loved tracks and sync your scrobbles.
+
 ---
 
 ## 🎧 Navidrome Scrobbling
