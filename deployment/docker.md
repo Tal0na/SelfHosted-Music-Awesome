@@ -24,7 +24,7 @@ services:
       - ./music:/music:ro
       - ./plugins:/plugins
 ```
-🛠️ C🛠️ Comandos Essenciais
+🛠️ Comandos Essenciais
 ```bash
     Subir: docker compose up -d
 
