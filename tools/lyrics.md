@@ -106,32 +106,23 @@ embedded,.lrc
 
 ---
 
-## 🐳 Docker Example
+Restart-Service
 
-```yaml
-services:
-  navidrome:
-    image: deluan/navidrome:latest
-    environment:
-      - ND_LYRICSPRIORITY=.lrc,.txt,embedded
-🪟 Windows PowerShell (temporary)
-$env:ND_LYRICSPRIORITY = ".lrc,.txt,embedded"
-Restart-Service navidrome
-4️⃣ Force a Library Rescan
+## 4️⃣ Force a Library Rescan
 
 After adding lyrics:
 
-Restart Selfhost Music
+ - Restart Selfhost Music
+ - Use the Scan option in the Admin panel
+ - Modify the file date to trigger re-indexing
 
-Use the Scan option in the Admin panel
+## 5️⃣ Minimal LRC Example
 
-Modify the file date to trigger re-indexing
-
-5️⃣ Minimal LRC Example
 [00:00.00] Intro
 [00:15.20] Verse 1 line 1
 [00:22.50] Verse 1 line 2
-🔧 Troubleshooting
+
+## 🔧 Troubleshooting
 
 ✔️ Filenames must match exactly
 ✔️ Check ND_LYRICSPRIORITY
@@ -139,8 +130,5 @@ Modify the file date to trigger re-indexing
 ✔️ Enable debug logs with:
 
 ND_LOGLEVEL=debug
-🔗 Useful Link
 
-Selfhost Music Configuration Options:
-https://www.navidrome.org/docs/usage/configuration/options/
-```
+

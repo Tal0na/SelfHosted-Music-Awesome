@@ -9,7 +9,6 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
 - **Platform:** Linux / Windows / macOS
 - **License:** GPL-2.0 License
 - **Open Source:** ✅ Yes
-- **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐⭐
 - **Last Update:** Active development
 - **Highlights:**
@@ -72,23 +71,6 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
 
 ---
 
-### Strawberry
-
-- **Platform:** Linux / Windows / macOS
-- **License:** GPL License
-- **Open Source:** ✅ Yes
-- **Price:** 🆓 Free
-- **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** Active development
-- **Highlights:**
-  - Modern music player
-  - Library management tools
-  - Streaming service integration
-  - High-quality audio playback
-  - Fork of the Clementine player
-
----
-
 ### ffmpeg
 
 - **Platform:** Linux / Windows / macOS
@@ -103,22 +85,6 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
   - Lossless format support
   - Metadata handling
   - Industry standard multimedia toolkit
-
----
-
-### dupeGuru
-
-- **Platform:** Linux / Windows / macOS
-- **License:** GPL License
-- **Open Source:** ✅ Yes
-- **Price:** 🆓 Free
-- **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** Maintained
-- **Highlights:**
-  - Duplicate file detection
-  - Music edition for audio libraries
-  - Hash-based comparison
-  - Helps clean large music collections
 
 ---
 
