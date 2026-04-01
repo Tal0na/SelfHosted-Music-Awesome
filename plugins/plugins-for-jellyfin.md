@@ -6,7 +6,7 @@ A small collection of useful plugins and integrations that enhance the **Jellyfi
 
 ## 🧩 Jellyfin Lyrics Plugin  
 
-🔗 <https://github.com/jellyfin/jellyfin-plugin-lyrics>  
+🔗 [jellyfin-plugin-lyrics](https://github.com/jellyfin/jellyfin-plugin-lyrics)
 
 - **Open Source:** ✅ Yes  
 - **Price:** Free  
@@ -17,7 +17,7 @@ Automatically fetches and displays **song lyrics** from online providers while l
 
 ## 🎧 ListenBrainz Plugin  
 
-🔗 <https://github.com/jellyfin/jellyfin-plugin-listenbrainz>  
+🔗 [jellyfin-plugin-listenbrainz](https://github.com/jellyfin/jellyfin-plugin-listenbrainz)
 
 - **Open Source:** ✅ Yes  
 - **Price:** Free  
@@ -28,7 +28,7 @@ Scrobbles your listening activity from Jellyfin to **ListenBrainz**, helping tra
 
 ## 📊 Last.fm Plugin  
 
-🔗 <https://github.com/jellyfin/jellyfin-plugin-lastfm>  
+🔗 [jellyfin-plugin-lastfm](https://github.com/jellyfin/jellyfin-plugin-lastfm)
 
 - **Open Source:** ✅ Yes  
 - **Price:** Free  
@@ -39,7 +39,7 @@ Integrates **Last.fm** with Jellyfin for scrobbling, recommendations, and music 
 
 ## 🎼 MusicBrainz Metadata Plugin  
 
-🔗 <https://github.com/jellyfin/jellyfin-plugin-musicbrainz>  
+🔗 [jellyfin-plugin-musicbrainz](https://github.com/jellyfin/jellyfin-plugin-musicbrainz)
 
 - **Open Source:** ✅ Yes  
 - **Price:** Free  

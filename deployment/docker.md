@@ -1,19 +1,20 @@
 # 🎧 Quick Music Server (Docker)
 
-Guia minimalista para subir um servidor de música (Navidrome/Jellyfin) via Docker.
+Minimal guide to deploy a music server (Navidrome/Jellyfin) using Docker.
 
 ## 📁 Estrutura e Setup
 
 ```bash
 mkdir -p music-server/{data,music,plugins} && cd music-server
-
+```
 🐳 Docker Compose (docker-compose.yml)
-
+```bash
 services:
   music:
     image: deluan/navidrome:latest
     container_name: music-server
-    ports: [ "4533:4533" ]
+    ports:
+      - "4533:4533"
     restart: unless-stopped
     environment:
       ND_SCANINTERVAL: 1h
@@ -22,9 +23,9 @@ services:
       - ./data:/data
       - ./music:/music:ro
       - ./plugins:/plugins
-
+```
 🛠️ C🛠️ Comandos Essenciais
-
+```bash
     Subir: docker compose up -d
 
     Parar: docker compose down
@@ -32,18 +33,21 @@ services:
     Logs: docker compose logs -f
 
     Update: docker compose pull && docker compose up -d
+```
+## ⚙️ Configuration
 
-⚙️ Configuração
+Variable,Description,Example
+SCAN_INTERVAL,Scan frequency,"1h, 30m"
+BASE_URL,Reverse proxy base path,/music
+TRANSCODING,Enable audio transcoding,true
 
 
-Variável,Função,Exemplo
-SCAN_INTERVAL,Frequência de scan,"1h, 30m"
-BASE_URL,Caminho para Proxy,/music
-TRANSCODING,Conversão de áudio,true
+## 🌐 Access
+Open in your browser:
+http://localhost:4533
 
+Create your admin account on first login.
 
-Acesso: http://localhost:4533 (Crie o admin no primeiro login).
-
-    [!TIP]
-    Use :ro no volume de músicas para proteger seus arquivos contra escrita acidental.
+[!TIP]
+Use :ro on the music volume to prevent accidental file modifications.
 

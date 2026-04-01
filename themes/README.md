@@ -1,42 +1,56 @@
-# 🎵 Self-Hosted Music Tools & Plugins
+# 🎨 Themes & Customization
+
+Customize the look and feel of your music server and clients.
 
 ---
 
-## 🔌 Navidrome Plugins
+## 🎵 Navidrome Themes
 
-Community plugins and tools built specifically for **Navidrome**.
-
-➡️ See the full list here:  
-**[Navidrome Plugins](/plugins/Pluguins-for-Navidrome.md)**
-
-Examples include tools for:
-
-- lyrics providers
-- Discord integrations
-- AI discovery
-- playlist automation
-- ListenBrainz / Last.fm integrations
-
----
-
-## 🟣 Jellyfin Music Plugins
-
-Tools and integrations that enhance the **Jellyfin music experience**.
+Themes and UI tweaks for Navidrome to improve visuals and usability.
 
 ➡️ See the full list here:  
-**[Jellyfin Music Plugins](/plugins/plugins-for-jellyfin.md)**
+**[Navidrome Themes](/themes/themes-for-navidrome.md)**
 
 Examples include:
 
-- scrobbling tools
-- lyrics integrations
-- Discord presence
-- music metadata tools
+- custom CSS themes  
+- dark/light UI variations  
+- improved layouts  
+
+---
+
+## 🟣 Jellyfin Themes
+
+Themes and customization tools for Jellyfin interfaces.
+
+➡️ See the full list here:  
+**[Jellyfin Themes](/themes/themes-for-jellyfin.md)**
+
+Examples include:
+
+- custom themes and skins  
+- UI enhancements  
+- CSS overrides  
+
+---
+
+## 📱 Client Themes
+
+Themes and visual customization for music clients and apps.
+
+➡️ See the full list here:  
+**[Client Themes](/themes/themes-for-clients.md)**
+
+Examples include:
+
+- mobile app themes  
+- desktop client customization  
+- UI tweaks for better usability  
 
 ---
 
 ## ⚠️ Notes
 
-- Most plugins are **community maintained**.
-- Compatibility may depend on your server version.
-- Always check the plugin repository for installation instructions.
+- Most themes are **community maintained**  
+- Some require manual installation (CSS or config edits)  
+- Compatibility depends on app versions  
