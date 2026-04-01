@@ -87,10 +87,7 @@ Guides for tracking your listening history using scrobbling services like **Last
 
 Infrastructure and hosting guides.
 
-- [Docker Setup](deployment/docker.md)
-- [Reverse Proxy (Nginx)](deployment/nginx.md)
-- [Caddy Setup](deployment/caddy.md)
-- [Cloudflare Configuration](deployment/cloudflare.md)
+- [Setup](deployment/README.md)
 
 ---
 
