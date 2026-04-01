@@ -4,21 +4,21 @@ Music players and applications compatible with Selfhost Music.
 
 ### 📱 Mobile
 
-- [Android Clients](clients/android.md)
-- [IOS Clients](clients/ios.md)
+- [Android Clients](android.md)
+- [IOS Clients](ios.md)
   
 ### 📱 Desktop
 
-- [Windows Clients](clients/windows.md)
-- [WacOS Clients](clients/macOS.md)
-- [Linux Clients](clients/linux.md)
+- [Windows Clients](windows.md)
+- [WacOS Clients](macOS.md)
+- [Linux Clients](linux.md)
 
 ### 📱 Web
 
-- [Web Clients](clients/web.md)
+- [Web Clients](web.md)
 
 ### 📱 Terminal Clients
 
-- [Terminal CLI / TUI](clients/tui.md)
+- [Terminal CLI / TUI](tui.md)
 
 ---
