@@ -49,8 +49,8 @@ Music players and applications compatible with Selfhost Music.
 
 Custom themes and UI modifications.
 
-- [Themes Overview](themes/README.md)
-- [Custom CSS Guide](themes/custom-css.md)
+- [Themes](themes/README.md)
+
 
 ---
 
@@ -58,8 +58,8 @@ Custom themes and UI modifications.
 
 Unofficial plugins, API-based extensions, and enhancement tools.
 
-- [Plugins List](plugins/README.md)
-- [API-based Extensions](plugins/api-extensions.md)
+- [Plugins & Extensions](plugins/README.md)
+
 
 ---
 
