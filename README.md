@@ -34,16 +34,6 @@ Unofficial plugins, API-based extensions, and enhancement tools.
 
 - [Plugins & Extensions](plugins/README.md)
 
-
----
-
-## 🔗 Integrations
-
-External services and connected platforms.
-
-- [Discord Integration](integrations/discord.md)
-- [Webhooks](integrations/webhooks.md)
-
 ---
 
 ## 📊 Scrobblers
@@ -67,6 +57,15 @@ Custom themes and UI modifications.
 Infrastructure and hosting guides.
 
 - [Setup](deployment/README.md)
+
+---
+
+## 🔗 Integrations
+
+External services and connected platforms.
+
+- [Discord Integration](integrations/discord.md)
+- [Webhooks](integrations/webhooks.md)
 
 ---
 
