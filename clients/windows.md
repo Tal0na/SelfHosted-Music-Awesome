@@ -37,6 +37,16 @@ A curated list of Windows desktop clients compatible with **Selfhost Music** and
 
 ---
 
+### Aonsoku
+
+- **API Support:** ✅ Navidrome / ✅ Jellyfin
+- **License:** MIT
+- **Open Source:** ✅ Yes
+- **Price:** 🆓 Free
+- **Rating:** ⭐⭐⭐☆☆
+- **Last Update:** Feb 2026 (v0.13.0)
+- **Notes:** Subsonic-focused client with a highly polished **Spotify-style UI**. 🎵
+
 ## ⚠️ Notes
 
 - Verify licensing and pricing details before publishing as definitive.
