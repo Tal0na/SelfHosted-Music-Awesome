@@ -50,10 +50,7 @@ External services and connected platforms.
 
 Guides for tracking your listening history using scrobbling services like **Last.fm** and **ListenBrainz**.
 
-- [Overview](scrobblers/README.md)
-- [Navidrome Scrobbling](scrobblers/navidrome.md)
-- [Jellyfin Scrobbling](scrobblers/jellyfin.md)
-- [Client-side Scrobbling](scrobblers/clients.md)
+- [Scrobblers](scrobblers/README.md)
 
 ---
 
