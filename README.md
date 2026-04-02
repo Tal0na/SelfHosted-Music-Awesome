@@ -28,15 +28,6 @@ Music players and applications compatible with Selfhost Music.
 
 ---
 
-## 🎨 Themes
-
-Custom themes and UI modifications.
-
-- [Themes](themes/README.md)
-
-
----
-
 ## 🔌 Plugins & Extensions
 
 Unofficial plugins, API-based extensions, and enhancement tools.
@@ -63,6 +54,14 @@ Guides for tracking your listening history using scrobbling services like **Last
 - [Navidrome Scrobbling](scrobblers/navidrome.md)
 - [Jellyfin Scrobbling](scrobblers/jellyfin.md)
 - [Client-side Scrobbling](scrobblers/clients.md)
+
+---
+
+## 🎨 Themes
+
+Custom themes and UI modifications.
+
+- [Themes](themes/README.md)
 
 ---
 
