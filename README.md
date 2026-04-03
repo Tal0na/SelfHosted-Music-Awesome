@@ -88,4 +88,5 @@ Feel free to open issues or submit pull requests to improve this repository.
 
 ## 📜 License
 
-GNU
+LGPL-3.0
+
