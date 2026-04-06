@@ -13,14 +13,15 @@ A curated list of recommended Linux clients compatible with **Selfhost Music** a
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** Feb 2026 (v1.8.0)
+- **Last Update:** ~ (v1.10.0)
 - **Highlights:**
   - MPV player backend
   - Web player backend
   - Modern UI
   - Smart playlist editor (Navidrome)
   - Synchronized and unsynchronized lyrics support
-
+  - Flatpak (Flathub)
+  - AppImage / Native builds
 ---
 
 ### Supersonic
