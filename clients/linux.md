@@ -32,8 +32,9 @@ A curated list of recommended Linux clients compatible with **Selfhost Music** a
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐☆
 - **Last Update:** Oct 2025 (v0.19.0)
-- **Notes:** Lightweight client written in Go; ideal for modest hardware. ⚡
-
+  - **Notes:** Lightweight client written in Go; ideal for modest hardware. ⚡
+  - Flatpak (Flathub)
+  - AppImage / Native builds
 ---
 
 ### Aonsoku
