@@ -81,7 +81,7 @@ Complementary tools for managing music libraries.
 
 ## 🤝 Contributing
 
-Contributions are welcome.  
+Contributions are welcome.
 Feel free to open issues or submit pull requests to improve this repository.
 
 ---
