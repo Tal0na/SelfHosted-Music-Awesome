@@ -45,7 +45,7 @@ A curated list of Android apps compatible with **Selfhost Music** and other Subs
 
 ### Chora
 
-- **Support:** ✅ Subsonic / ✅ OpenSubsonic
+- **Support:** ✅ Subsonic / ✅ OpenSubsonic / ✅ Navidrome
 - **License:** Apache-2.0
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
@@ -66,7 +66,7 @@ A curated list of Android apps compatible with **Selfhost Music** and other Subs
 
 ### Substreamer
 
-- **Support:**  ✅ Subsonic
+- **Support:**  ✅ Subsonic / ✅ Navidrome
 - **License:** Proprietary
 - **Open Source:** ❌ No
 - **Price:** 🆓 Free
