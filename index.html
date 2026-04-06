@@ -29,11 +29,39 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
   <script>
-    fetch('README.md')
-      .then(res => res.text())
-      .then(text => {
-        document.getElementById('content').innerHTML = marked.parse(text);
-      });
+    let currentPath = '';
+
+    function loadPage(page) {
+      // salva o diretório atual
+      currentPath = page.substring(0, page.lastIndexOf('/') + 1);
+
+      fetch(page)
+        .then(res => res.text())
+        .then(text => {
+          document.getElementById('content').innerHTML = marked.parse(text);
+        });
+    }
+
+    loadPage('README.md');
+
+    document.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') {
+        let href = e.target.getAttribute('href');
+
+        if (href.endsWith('.md')) {
+          e.preventDefault()
+          let newPath;
+
+          if (href.startsWith('./')) {
+            newPath = currentPath + href.replace('./', '');
+          } else {
+            newPath = href;
+          }
+
+          loadPage(newPath);
+        }
+      }
+    });
   </script>
 
 </body>
