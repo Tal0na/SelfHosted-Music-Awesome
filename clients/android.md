@@ -28,7 +28,6 @@ A curated list of Android apps compatible with **Selfhost Music** and other Subs
 #### 📥 Installation (Android)
 - 🛒 [Google Play Store](https://play.google.com/store/apps/details?id=app.symfonik.music.player)
 - 🌐 [Official Website](https://symfonium.app)
--
 ---
 
 ### 🎧 Jellify
