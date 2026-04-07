@@ -23,6 +23,28 @@ A curated list of recommended Linux clients compatible with **Selfhost Music** a
 - **Notes:** Web via docker
 
 ---
+
+
+### 🎧 Aonsoku
+
+- **API Support:** ✅ Navidrome / ✅ Jellyfin
+- **License:** MIT
+- **Open Source:** ✅ Yes
+- **Price:** 🆓 Free
+- **Status:** 🟢 Actively maintained
+- **Rating:** ⭐⭐⭐⭐☆
+
+#### 🚀 Highlights
+- Spotify-style UI 🎵
+- Subsonic-focused experience
+- Clean and modern interface
+
+#### 📥 Installation (Linux)
+- 🌐 [GitHub](https://github.com/victoralvesf/aonsoku)
+- 🧊 [Flatpak (Flathub)](https://flathub.org/en/apps/io.github.victoralvesf.aonsoku)
+- 📦 [Releases (.deb / AppImage / .tar.gz)](https://github.com/victoralvesf/aonsoku/releases)
+---
+
 ## ⚠️ Notes
 
 - Licensing and pricing information may change over time.
