@@ -46,7 +46,6 @@ A curated list of Android apps compatible with **Selfhost Music** and other Subs
 - Offline playback
 - Google Cast support
 - Storage UI manager
--
 #### 📥 Installation (Android)
 - 🌐 [GitHub](https://github.com/Jellify-Music/App)
 - 📦 [Releases (APK / IPA)](https://github.com/Jellify-Music/App/releases)
