@@ -12,41 +12,64 @@ A curated list of recommended Linux clients compatible with **Selfhost Music** a
 - **License:** GPL-3.0
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
+- **Status:** 🟢 Actively maintained
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** ~ (v1.10.0)
 - **Highlights:**
-  - MPV player backend
-  - Web player backend
-  - Modern UI
-  - Smart playlist editor (Navidrome)
-  - Synchronized and unsynchronized lyrics support
-  - Flatpak (Flathub)
-  - AppImage / Native builds
+
+#### 🚀 Highlights
+- MPV player backend
+- Web player backend
+- Modern UI
+- Smart playlist editor (Navidrome)
+- Synchronized and unsynchronized lyrics support
+
+#### 📥 Installation (Linux)
+- 🌐 [GitHub](https://github.com/jeffvli/feishin)
+- 🧊 [Flatpak (Flathub) — ⭐ Recommended](https://flathub.org/en/apps/org.jeffvli.feishin)
+- 📦 [Releases (AppImage / .deb / .rpm)](https://github.com/jeffvli/feishin/releases)
+- 🐧 [AUR](https://aur.archlinux.org/packages/feishin)
+
 ---
 
-### Supersonic
+### 🎧 Supersonic
 
 - **API Support:** ✅ Navidrome / ✅ Jellyfin
 - **License:** GPL-3.0
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
-- **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** Oct 2025 (v0.19.0)
-  - **Notes:** Lightweight client written in Go; ideal for modest hardware. ⚡
-  - Flatpak (Flathub)
-  - AppImage / Native builds
+- **Status:** 🟢 Actively maintained
+- **Rating:** ⭐⭐⭐⭐⭐
+
+#### 🚀 Highlights
+- Lightweight client written in Go ⚡
+- Fast and native UI with infinite scrolling
+- High-quality playback using MPV
+- Multi-server support
+
+#### 📥 Installation (Linux)
+- 🌐 [GitHub](https://github.com/dweymouth/supersonic)
+- 🧊 [Flatpak (Flathub)](https://flathub.org/en/apps/io.github.dweymouthsupersonic)
+- 📦 [Releases (AppImage / .tar.xz)](https://github.com/dweymouth/supersonic/releases)
 ---
 
-### Aonsoku
+### 🎧 Aonsoku
 
 - **API Support:** ✅ Navidrome / ✅ Jellyfin
 - **License:** MIT
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
-- **Rating:** ⭐⭐⭐☆☆
-- **Last Update:** Feb 2026 (v0.13.0)
-- **Notes:** Subsonic-focused client with a highly polished **Spotify-style UI**. 🎵
+- **Status:** 🟢 Actively maintained
+- **Rating:** ⭐⭐⭐⭐☆
 
+#### 🚀 Highlights
+- Spotify-style UI 🎵
+- Subsonic-focused experience
+- Clean and modern interface
+
+#### 📥 Installation (Linux)
+- 🌐 [GitHub](https://github.com/victoralvesf/aonsoku)
+- 🧊 [Flatpak (Flathub)](https://flathub.org/en/apps/io.github.victoralvesf.aonsoku)
+- 📦 [Releases (.deb / AppImage / .tar.gz)](https://github.com/victoralvesf/aonsoku/releases)
 ---
 
 ## ⚠️ Notes

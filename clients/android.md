@@ -6,76 +6,96 @@ A curated list of Android apps compatible with **Selfhost Music** and other Subs
 
 ## ⭐ Recommended Apps
 
-### Symfonium
+### 🎧 Symfonium
 
 - **Support:** ✅ Local Music / ✅ Navidrome / ✅ Subsonic / ✅ OpenSubsonic / ✅ Jellyfin / ✅ Plex / ✅ NAS
 - **License:** Proprietary
 - **Open Source:** ❌ No
 - **Price:** 💰 Paid (one-time purchase, trial available)
+- **Status:** 🟢 Actively maintained
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** ~2026
-- **Highlights:**
-  - Android Auto
-  - Android TV
-  - Wear OS
-  - cast to Sonos/Chromecast/DLNA
-  - Offline caching
-  - Advanced equalizer
-  - Highly polished UI
-  - AutoEQ
 
+#### 🚀 Highlights
+- Android Auto
+- Android TV
+- Wear OS
+- Cast to Sonos / Chromecast / DLNA
+- Offline caching
+- Advanced equalizer
+- Highly polished UI
+- AutoEQ
+
+#### 📥 Installation (Android)
+- 🛒 [Google Play Store](https://play.google.com/store/apps/details?id=app.symfonik.music.player)
+- 🌐 [Official Website](https://symfonium.app)
+-
 ---
 
-### Jellify
+### 🎧 Jellify
 
-- **Support:**  ✅ Jellyfin
-- **License:** MIT License
-- **Open Source:** ✅ yes
+- **Support:** ✅ Jellyfin
+- **License:** MIT
+- **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
+- **Status:** 🟢 Actively maintained
 - **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** ~01/01/2026
-- **Highlights:**
-  - Full Library Browsing
-  - Playlist support, including creating, updating, and reordering
-  - Offline Playback
-  - Google Cast Support
-  - Storage UI Manager
 
+#### 🚀 Highlights
+- Full library browsing
+- Playlist support (create, update, reorder)
+- Offline playback
+- Google Cast support
+- Storage UI manager
+-
+#### 📥 Installation (Android)
+- 🌐 [GitHub](https://github.com/Jellify-Music/App)
+- 📦 [Releases (APK / IPA)](https://github.com/Jellify-Music/App/releases)
 ---
 
-### Chora
+### 🎧 Chora
 
 - **Support:** ✅ Subsonic / ✅ OpenSubsonic / ✅ Navidrome
 - **License:** Apache-2.0
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
+- **Status:** 🟢 Actively maintained
 - **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** ~15/03/2026
-- **Highlights:**
-  - Android Auto.
-  - Material 3 UI.
-  - Android TV
-  - Download songs and albums from server.
-  - Internet Radio. [Metadata only from IceCast servers]
-  - Synced And Unsynced Lyrics. [From lrclib.net or self-hosted instance]
-  - Navidrome and Local playlists.
-  - Multiple Navidrome libraries.
-  - Transcoding.
+
+#### 🚀 Highlights
+- Android Auto
+- Material 3 UI
+- Android TV
+- Download songs and albums from server
+- Internet radio (IceCast metadata support)
+- Synced and unsynced lyrics (lrclib or self-hosted)
+- Navidrome and local playlists
+- Multiple Navidrome libraries
+- Transcoding
+
+#### 📥 Installation (Android)
+- 🌐 [GitHub](https://github.com/CraftWorksMC/Chora)
+- 🛒 [Google Play Store](https://play.google.com/store/apps/details?id=com.craftworks.music)
+- 📦 [Releases (APK)](https://github.com/CraftWorksMC/Chora/releases)
 
 ---
 
-### Substreamer
+### 🎧 Substreamer
 
-- **Support:**  ✅ Subsonic / ✅ Navidrome
+- **Support:** ✅ Subsonic / ✅ Navidrome
 - **License:** Proprietary
 - **Open Source:** ❌ No
 - **Price:** 🆓 Free
+- **Status:** 🟢 Actively maintained
 - **Rating:** ⭐⭐⭐☆☆
-- **Last Update:** ~2022–2023
-- **Highlights:**
-  - Simple interface
-  - Streaming + offline playback
-  - Lightweight
+
+#### 🚀 Highlights
+- Simple interface
+- Streaming and offline playback
+- Lightweight
+
+#### 📥 Installation (Android)
+- 🌐 [Official Website](https://substreamer.org/)
+- 🛒 [Google Play Store](https://play.google.com/store/apps/details?id=com.ghenry22.substream2)
 
 ---
 

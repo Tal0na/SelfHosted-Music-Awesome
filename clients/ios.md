@@ -1,4 +1,4 @@
-# 🎧 Best ios Clients for Selfhost Music
+# 🎧 Best iOS Clients for Selfhost Music
 
 A curated list of recommended ios clients compatible with **Selfhost Music** and other Subsonic-compatible servers.
 
@@ -6,20 +6,46 @@ A curated list of recommended ios clients compatible with **Selfhost Music** and
 
 ## ⭐ Recommended Apps
 
-### Jellify
+### 🎧 Amperfy
 
-- **Support:**  ✅ Jellyfin
-- **License:** MIT License
-- **Open Source:** ✅ yes
+- **Support:** ✅ Subsonic / ✅ OpenSubsonic / ✅ Navidrome
+- **License:** GPL-3.0
+- **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
+- **Status:** 🟢 Actively maintained
+- **Rating:** ⭐⭐⭐⭐⭐
+
+#### 🚀 Highlights
+- Native iOS design
+- Offline playback
+- Background streaming
+- Fully open source
+
+#### 📥 Installation (iOS)
+- 🛒 [App Store](https://apps.apple.com/app/amperfy/id1552012015)
+- 🌐 [GitHub](https://github.com/amperfy/Amperfy)
+
+---
+
+### 🎧 Jellify
+
+- **Support:** ✅ Jellyfin
+- **License:** MIT
+- **Open Source:** ✅ Yes
+- **Price:** 🆓 Free
+- **Status:** 🟢 Actively maintained
 - **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** ~01/01/2026
-- **Highlights:**
-  - Full Library Browsing
-  - Playlist support, including creating, updating, and reordering
-  - Offline Playback
-  - Google Cast Support
-  - Storage UI Manager
+
+#### 🚀 Highlights
+- Full library browsing
+- Playlist support (create, update, reorder)
+- Offline playback
+- Google Cast support
+- Clean and modern UI
+
+#### 📥 Installation (iOS)
+- 🛒 [App Store](https://apps.apple.com/app/jellify/id6736884612)
+- 🌐 [GitHub](https://github.com/Jellify-Music/App)
 
 ---
 
@@ -30,29 +56,19 @@ A curated list of recommended ios clients compatible with **Selfhost Music** and
 - **Open Source:** ❌ No
 - **Price:** 💰 Paid (one-time purchase)
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Highlights:**
+#### 🚀 Highlights
+
   - One of the most popular Subsonic clients for iOS
   - Offline downloads
   - Smart playlists
   - Background playback
   - Very polished UI
+#### 📥 Installation (iOS)
+- 🛒 [App Store](https://apps.apple.com/br/app/play-sub-music-streamer/id955329386)
+
 
 ---
 
-### Amperfy
-
-- **Support:** ✅ Subsonic / ✅ OpenSubsonic / ✅ Navidrome
-- **License:** GPL-3.0
-- **Open Source:** ✅ Yes
-- **Price:** 🆓 Free
-- **Rating:** ⭐⭐⭐⭐☆
-- **Highlights:**
-  - Native iOS design
-  - Offline playback
-  - Background streaming
-  - Fully open source
-
----
 
 ### Substreamer
 
@@ -61,10 +77,13 @@ A curated list of recommended ios clients compatible with **Selfhost Music** and
 - **Open Source:** ❌ No
 - **Price:** 🆓 Free / optional premium
 - **Rating:** ⭐⭐⭐⭐☆
-- **Highlights:**
+#### 🚀 Highlights
+
   - Simple interface
   - Streaming + offline playback
   - Easy server configuration
+#### 📥 Installation (iOS)
+- 🛒 [App Store](https://apps.apple.com/app/jellify/id6736884612)
 
 ---
 
@@ -75,10 +94,14 @@ A curated list of recommended ios clients compatible with **Selfhost Music** and
 - **Open Source:** ❌ No
 - **Price:** 💰 Paid
 - **Rating:** ⭐⭐⭐⭐☆
-- **Highlights:**
+#### 🚀 Highlights
+
   - Offline caching
   - Background playback
   - Mature and long-standing Subsonic client
+#### 📥 Installation (iOS)
+- 🛒 [App Store](https://apps.apple.com/app/isub-music-streamer/id362927455)
+- 🌐 [GitHub](http://isubapp.com/)
 
 ---
 
