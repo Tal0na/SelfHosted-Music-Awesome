@@ -21,4 +21,6 @@ A curated list of recommended MacOS clients compatible with **Selfhost Music** a
   - Smart playlist editor (Navidrome)
   - Synchronized and unsynchronized lyrics support
 
+https://github.com/Taiko2k/Tauon
+
 ---

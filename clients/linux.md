@@ -72,6 +72,8 @@ A curated list of recommended Linux clients compatible with **Selfhost Music** a
 - 📦 [Releases (.deb / AppImage / .tar.gz)](https://github.com/victoralvesf/aonsoku/releases)
 ---
 
+https://github.com/Taiko2k/Tauon
+
 ## ⚠️ Notes
 
 Licensing and pricing information may change over time.

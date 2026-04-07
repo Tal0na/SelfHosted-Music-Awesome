@@ -9,11 +9,11 @@ A curated list of Windows desktop clients compatible with **Selfhost Music** and
 ### Feishin
 
 - **API Support:** ✅ Navidrome / ✅ Jellyfin / ✅ OpenSubsonic
-- **License:** GPL-3.0  
-- **Open Source:** ✅ Yes  
-- **Price:** 🆓 Free  
-- **Rating:** ⭐⭐⭐⭐⭐  
-- **Last Update:** ~Feb 2026 (v1.6.0 beta)  
+- **License:** GPL-3.0
+- **Open Source:** ✅ Yes
+- **Price:** 🆓 Free
+- **Rating:** ⭐⭐⭐⭐⭐
+- **Last Update:** ~Feb 2026 (v1.6.0 beta)
 - **Notes:**
   - Modern desktop UI
   - Support for multiple music servers
@@ -24,12 +24,12 @@ A curated list of Windows desktop clients compatible with **Selfhost Music** and
 
 ### Supersonic
 
-- **Support:** ✅ Selfhost Music / ✅ Subsonic / ✅ OpenSubsonic  
-- **License:** GPL-3.0  
-- **Open Source:** ✅ Yes  
-- **Price:** 🆓 Free  
-- **Rating:** ⭐⭐⭐⭐☆  
-- **Last Update:** Oct 26, 2025 (v0.19.0 release)  
+- **Support:** ✅ Selfhost Music / ✅ Subsonic / ✅ OpenSubsonic
+- **License:** GPL-3.0
+- **Open Source:** ✅ Yes
+- **Price:** 🆓 Free
+- **Rating:** ⭐⭐⭐⭐☆
+- **Last Update:** Oct 26, 2025 (v0.19.0 release)
 - **Notes:**
   - Lightweight desktop client
   - Written in Go
@@ -46,6 +46,9 @@ A curated list of Windows desktop clients compatible with **Selfhost Music** and
 - **Rating:** ⭐⭐⭐☆☆
 - **Last Update:** Feb 2026 (v0.13.0)
 - **Notes:** Subsonic-focused client with a highly polished **Spotify-style UI**. 🎵
+
+
+https://github.com/Taiko2k/Tauon
 
 ## ⚠️ Notes
 
