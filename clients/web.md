@@ -23,3 +23,7 @@ A curated list of recommended Linux clients compatible with **Selfhost Music** a
 - **Notes:** Web via docker
 
 ---
+## ⚠️ Notes
+
+- Licensing and pricing information may change over time.
+- Please verify the latest information in each project's repository or Play Store page before.

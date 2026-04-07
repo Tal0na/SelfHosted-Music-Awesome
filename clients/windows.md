@@ -47,10 +47,13 @@ A curated list of Windows desktop clients compatible with **Selfhost Music** and
 - **Last Update:** Feb 2026 (v0.13.0)
 - **Notes:** Subsonic-focused client with a highly polished **Spotify-style UI**. 🎵
 
+---
 
 https://github.com/Taiko2k/Tauon
 
-## ⚠️ Notes
+---
 
-- Verify licensing and pricing details before publishing as definitive.
-- Some projects may change license or pricing model over time.
+### ⚠️ Notes
+
+- Licensing and pricing information may change over time.
+- Please verify the latest information in each project's repository or Play Store page before.

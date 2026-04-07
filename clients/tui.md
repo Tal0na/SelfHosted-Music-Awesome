@@ -41,3 +41,7 @@ A curated list of recommended Tui clients compatible with **Selfhost Music** and
   - Discord Integration: Show off what you're listening to with built-in Discord Rich Presence
 
 ---
+## ⚠️ Notes
+
+- Licensing and pricing information may change over time.
+- Please verify the latest information in each project's repository or Play Store page before.

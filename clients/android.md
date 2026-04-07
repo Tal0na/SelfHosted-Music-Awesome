@@ -100,4 +100,4 @@ A curated list of Android apps compatible with **Selfhost Music** and other Subs
 ## ⚠️ Notes
 
 - Licensing and pricing information may change over time.
-- Please verify the latest information in each project's repository or Play Store page before publishing.
+- Please verify the latest information in each project's repository or Play Store page before.

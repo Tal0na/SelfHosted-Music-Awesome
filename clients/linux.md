@@ -76,5 +76,5 @@ https://github.com/Taiko2k/Tauon
 
 ## ⚠️ Notes
 
-Licensing and pricing information may change over time.
-Please verify the latest information in each project's repository before publishing.
+- Licensing and pricing information may change over time.
+- Please verify the latest information in each project's repository or Play Store page before.

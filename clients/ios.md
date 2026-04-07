@@ -107,5 +107,5 @@ A curated list of recommended ios clients compatible with **Selfhost Music** and
 
 ## ⚠️ Notes
 
-- These apps connect to **self-hosted music servers**, not local device libraries.
-- Always verify App Store availability and pricing before publishing.
+- Licensing and pricing information may change over time.
+- Please verify the latest information in each project's repository or Play Store page before.
