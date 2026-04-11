@@ -11,7 +11,7 @@ Open-source media server for music, videos, and photos.
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** ~01/01/2026
+- **Last Update:** 🟢 Actively maintained
 - **Highlights:**
   - Full media library management
   - Web, mobile, and smart TV apps

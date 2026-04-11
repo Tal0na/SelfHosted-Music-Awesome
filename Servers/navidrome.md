@@ -11,7 +11,7 @@ A lightweight Subsonic-compatible music server for personal streaming.
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** ~01/01/2026
+- **Last Update:** 🟢 Actively maintained
 - **Highlights:**
   - Handles very **large music collections**
   - Streams virtually **any audio format** available

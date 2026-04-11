@@ -49,6 +49,24 @@ A curated list of Windows desktop clients compatible with **Selfhost Music** and
 
 ---
 
+### 🎧 Psysonic
+
+- **API Support:** ✅ Navidrome / ✅ Gonic
+- **License:** GNU
+- **Open Source:** ✅ Yes
+- **Status:** 🟡 Psysonic is under heavy active development
+- **Rating:** ⭐⭐⭐☆☆
+
+#### 🚀 Highlights
+- Synchronized Lyrics
+- Last.fm Integration: Direct scrobbling
+- Clean and modern interface
+
+#### 📥 Installation
+- 🌐 [GitHub](https://github.com/Psychotoxical/psysonic)
+- 📦 [Releases](https://github.com/Psychotoxical/psysonic/releases)
+---
+
 https://github.com/Taiko2k/Tauon
 
 ---

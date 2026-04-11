@@ -72,6 +72,24 @@ A curated list of recommended Linux clients compatible with **Selfhost Music** a
 - 📦 [Releases (.deb / AppImage / .tar.gz)](https://github.com/victoralvesf/aonsoku/releases)
 ---
 
+### 🎧 Psysonic
+
+- **API Support:** ✅ Navidrome / ✅ Gonic
+- **License:** GNU
+- **Open Source:** ✅ Yes
+- **Status:** 🟡 Psysonic is under heavy active development
+- **Rating:** ⭐⭐⭐☆☆
+
+#### 🚀 Highlights
+- Synchronized Lyrics
+- Last.fm Integration: Direct scrobbling
+- Clean and modern interface
+
+#### 📥 Installation (Linux)
+- 🌐 [GitHub](https://github.com/Psychotoxical/psysonic)
+- 📦 [Releases (.deb / AppImage / .tar.gz)](https://github.com/Psychotoxical/psysonic/releases)
+---
+
 https://github.com/Taiko2k/Tauon
 
 ## ⚠️ Notes
