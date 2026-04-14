@@ -1,6 +1,6 @@
-# 🎧 Best MacOS Clients for Selfhost Music
+# 🎧 Best MacOS Clients for Self-host Music
 
-A curated list of recommended MacOS clients compatible with **Selfhost Music** and other Subsonic-compatible servers.
+A curated list of recommended MacOS clients compatible with **Self-host Music** and other Subsonic-compatible servers.
 
 ---
 
