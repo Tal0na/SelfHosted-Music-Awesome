@@ -13,7 +13,7 @@ A curated list of recommended MacOS clients compatible with **Selfhost Music** a
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** Feb 2026 (v1.8.0)
+- **Last Update:** 🟢 Actively maintained
 - **Highlights:**
   - MPV player backend
   - Web player backend

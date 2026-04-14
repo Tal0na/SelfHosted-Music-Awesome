@@ -13,7 +13,7 @@ A curated list of recommended Tui clients compatible with **Selfhost Music** and
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** Feb 2026 (v1.4.1)
+- **Status:** 🟢 Actively maintained
 - **Highlights:**
   - stream your music from Jellyfin
   - lyrics with autoscroll (Jellyfin > 10.9)
@@ -31,7 +31,7 @@ A curated list of recommended Tui clients compatible with **Selfhost Music** and
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** Feb 2026 (v2.11.1)
+- **Status:** 🟢 Actively maintained
 - **Highlights:**
   - mpv to support various audio codecs and reliable playback
   - keybinds, color themes, and settings via a simple TOML file

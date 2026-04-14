@@ -13,7 +13,7 @@ A curated list of Windows desktop clients compatible with **Selfhost Music** and
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** ~Feb 2026 (v1.6.0 beta)
+- **Status:** 🟢 Actively maintained
 - **Notes:**
   - Modern desktop UI
   - Support for multiple music servers
@@ -29,7 +29,7 @@ A curated list of Windows desktop clients compatible with **Selfhost Music** and
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** Oct 26, 2025 (v0.19.0 release)
+- **Status:** 🟢 Actively maintained
 - **Notes:**
   - Lightweight desktop client
   - Written in Go
@@ -44,7 +44,7 @@ A curated list of Windows desktop clients compatible with **Selfhost Music** and
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐☆☆
-- **Last Update:** Feb 2026 (v0.13.0)
+- **Status:** 🟢 Actively maintained
 - **Notes:** Subsonic-focused client with a highly polished **Spotify-style UI**. 🎵
 
 ---
