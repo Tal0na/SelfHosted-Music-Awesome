@@ -1,10 +1,10 @@
 # 🎵 Integrates Sources
 
- A Subsonic API proxy server that transparently integrates multiple music streaming providers as sources.
-
 ## ⭐ Recommended Apps
 
 ### octo-fiesta
+
+A Subsonic API proxy server that transparently integrates multiple music streaming providers as sources. When a song is not available in your local Navidrome library, it is automatically fetched from your configured provider, downloaded, and served to your Subsonic-compatible client. The downloaded song is then added to your library, making it available locally for future listens.
 
 - **License:** GPL-3.0 license
 - **Open Source:** ✅ Yes
