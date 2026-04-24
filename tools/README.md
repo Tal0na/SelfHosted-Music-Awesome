@@ -2,8 +2,8 @@
 
 Complementary tools for managing music libraries.
 
-- [Metadata Management](tools/metadata.md)
-- [Lyrics Automation](tools/lyrics.md)
-- [Library Organization](tools/library-management.md)
-- [Integrates Sources](tools/integrates-sources.md)
-- [FFmpeg](tools/FFmpeg.md)
+- [Metadata Management](metadata.md)
+- [Lyrics Automation](lyrics.md)
+- [Library Organization](library-management.md)
+- [Integrates Sources](integrates-sources.md)
+- [FFmpeg](ffmpeg.md)
