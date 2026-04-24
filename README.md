@@ -73,7 +73,7 @@ External services and connected platforms.
 
 Complementary tools for managing music libraries.
 
-- [Tools](tools/readme.md)
+- [Tools](tools/README.md)
 
 ---
 
