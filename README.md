@@ -73,9 +73,7 @@ External services and connected platforms.
 
 Complementary tools for managing music libraries.
 
-- [Metadata Management](tools/metadata.md)
-- [Lyrics Automation](tools/lyrics.md)
-- [Library Organization](tools/library-management.md)
+- [Tools](tools/readme.md)
 
 ---
 
