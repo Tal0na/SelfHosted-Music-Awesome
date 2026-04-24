@@ -10,7 +10,7 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
 - **License:** GPL-2.0 License
 - **Open Source:** ✅ Yes
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** Active development
+- **Last Update:** 🟢 Actively maintained
 - **Highlights:**
   - AcoustID audio fingerprinting
   - Automatic metadata correction
@@ -27,7 +27,7 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
 - **Open Source:** ❌ No
 - **Price:** 💲 Paid (trial available)
 - **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** Active development
+- **Last Update:** 🟢 Actively maintained
 - **Highlights:**
   - Automatic music identification
   - Duplicate file detection
@@ -44,7 +44,7 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** Active development (frequent updates)
+- **Last Update:** 🟢 Actively maintained
 - **Highlights:**
   - Automated music library organization
   - Powerful plugin system
@@ -61,7 +61,7 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** Active development
+- **Last Update:** 🟢 Actively maintained
 - **Highlights:**
   - Advanced tag editing
   - Batch metadata editing
@@ -78,7 +78,7 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
 - **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** Active development
+- **Last Update:** 🟢 Actively maintained
 - **Highlights:**
   - Audio format conversion
   - Batch audio processing
