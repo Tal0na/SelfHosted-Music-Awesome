@@ -20,23 +20,6 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
 
 ---
 
-### AudioRanger
-
-- **Platform:** Windows
-- **License:** Proprietary
-- **Open Source:** ❌ No
-- **Price:** 💲 Paid (trial available)
-- **Rating:** ⭐⭐⭐⭐☆
-- **Last Update:** 🟢 Actively maintained
-- **Highlights:**
-  - Automatic music identification
-  - Duplicate file detection
-  - Batch metadata editing
-  - Library cleanup tools
-  - MusicBrainz integration
-
----
-
 ### beets
 
 - **Platform:** Linux / macOS / Windows
