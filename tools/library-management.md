@@ -26,7 +26,7 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
 - **License:** MIT License
 - **Open Source:** ✅ Yes
 - **Price:** 🆓 Free
-- **Rating:** ⭐⭐⭐⭐⭐
+- **Rating:** ⭐⭐⭐☆☆
 - **Last Update:** 🟢 Actively maintained
 - **Highlights:**
   - Automated music library organization
@@ -54,22 +54,6 @@ A concise comparison of tools for organizing, tagging, deduplicating, and conver
 
 ---
 
-### ffmpeg
-
-- **Platform:** Linux / Windows / macOS
-- **License:** LGPL / GPL
-- **Open Source:** ✅ Yes
-- **Price:** 🆓 Free
-- **Rating:** ⭐⭐⭐⭐⭐
-- **Last Update:** 🟢 Actively maintained
-- **Highlights:**
-  - Audio format conversion
-  - Batch audio processing
-  - Lossless format support
-  - Metadata handling
-  - Industry standard multimedia toolkit
-
----
 
 ## 🧠 Quick Tips
 
