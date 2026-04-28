@@ -1,6 +1,6 @@
-## 📱 Clients
+## 📱 Clients for Servers
 
-Music players and applications compatible with Self-host Music.
+Music players and applications compatible with Self-hosted Music APIs.
 
 ### 📱 Mobile
 

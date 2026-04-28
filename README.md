@@ -20,11 +20,12 @@ Platforms that host and stream your music library
 
 ---
 
-## 📱 Clients for Servers
+## 📱 Music Players
 
 Music players and applications compatible with Selfhost Music.
 
-- [Clients](clients/README.md)
+- [Clients for Servers](Servers-Clients/README.md)
+- [Local Players](Local-Players/README.md)
 
 ---
 
