@@ -20,7 +20,7 @@ Platforms that host and stream your music library
 
 ---
 
-## 📱 Clients
+## 📱 Clients for Servers
 
 Music players and applications compatible with Selfhost Music.
 
