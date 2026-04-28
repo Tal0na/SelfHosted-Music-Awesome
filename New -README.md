@@ -19,7 +19,6 @@
   - [🎨 Themes](#-themes)
   - [🐳 Deployment](#-deployment)
   - [🔗 Integrations](#-integrations)
-      - [Available Integrations](#available-integrations)
   - [🛠️ Tools](#️-tools)
   - [🤝 Contributing](#-contributing)
   - [📜 License](#-license)
@@ -101,12 +100,7 @@ See → [deployment/README.md](deployment/README.md)
 
 > External services and connected platform guides.
 
-#### Available Integrations
-
-| Integration | Description                            | Link                                    |
-| ----------- | -------------------------------------- | --------------------------------------- |
-| Discord     | Connect your music activity to Discord | [discord.md](integrations/discord.md)   |
-| Webhooks    | Event-driven automation with webhooks  | [webhooks.md](integrations/webhooks.md) |
+See → [integration/README.md](integration/README.md)
 
 ---
 
