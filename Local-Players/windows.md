@@ -5,7 +5,7 @@ A curated list of Windows desktop clients
 
 ## ⭐ Recommended Apps
 
-### 🎧 Symfonium
+### 🎧 dopamine
 
 - **License:** GPL-3.0
 - **Open Source:** ✅ Yes
@@ -13,16 +13,16 @@ A curated list of Windows desktop clients
 - **Status:** 🟢 Actively maintained
 - **Rating:** ⭐⭐⭐⭐⭐
 
-#### 🚀 Highlights
+### 🚀 Highlights
 - Dopamine is an elegant audio player which tries to make organizing and listening to music as simple and pretty as possible. This version is written using Electron, Angular and Typescript and works on Windows, Linux and Mac.
 
-#### 📥 Installation (Android)
-- 🌐 [GitHub](https://github.com/victoralvesf/aonsoku)
+### 📥 Installation (Android)
+- 🌐 [GitHub](https://github.com/digimezzo/dopamine)
 - 🌐 [Official Website](digimezzo.github.io/site/)
-  
+
 ---
 
-### ⚠️ Notes
+## ⚠️ Notes
 
 - Licensing and pricing information may change over time.
 - Please verify the latest information in each project's repository or Play Store page before.
