@@ -5,20 +5,29 @@ A curated list of linux desktop clients
 
 ## ⭐ Recommended Apps
 
-### 🎧 Symfonium
+### 🎧 Namida
 
-- **License:** GPL-3.0
-- **Open Source:** ✅ Yes
-- **Price:** 🆓 Free
+- **License:** --
+- **Open Source:** --
+- **Price:** --
 - **Status:** 🟢 Actively maintained
 - **Rating:** ⭐⭐⭐⭐⭐
 
 #### 🚀 Highlights
-- Dopamine is an elegant audio player which tries to make organizing and listening to music as simple and pretty as possible. This version is written using Electron, Angular and Typescript and works on Windows, Linux and Mac.
+- A Beautiful and Feature-rich Music & Video Player with Youtube Support
+- Built in Flutter
+- Powerful Indexer & Tag Editor, powered by @jaudiotagger.
+- Artists and Genres Separators.
+- Folders-based Library system, with the ability to exclude folders as well.
+- Sort by almost any property of the track or the album.. etc.
+- Lyrics auto fetching & displaying (Synced & Plain) + Support for Word Synced lrc/ttml.
+- Replay Gain (Normalize Audio)
 
-#### 📥 Installation (Android)
-- 🌐 [GitHub](https://github.com/victoralvesf/aonsoku)
-- 🌐 [Official Website](digimezzo.github.io/site/)
+
+#### 📥 Installation
+- 🌐 [GitHub](https://github.com/namidaco/namida)
+- 🌐 [obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/namidaco/namida/)
+
 
 ---
 

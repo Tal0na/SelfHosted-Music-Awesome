@@ -16,7 +16,7 @@ A curated list of linux desktop clients
 #### 🚀 Highlights
 - Dopamine is an elegant audio player which tries to make organizing and listening to music as simple and pretty as possible. This version is written using Electron, Angular and Typescript and works on Windows, Linux and Mac.
 
-#### 📥 Installation (Android)
+#### 📥 Installation
 - 🌐 [GitHub](https://github.com/digimezzo/dopamine)
 - 🌐 [Snap Store](https://snapcraft.io/dopamine)
 - 🌐 [Official Website](digimezzo.github.io/site/)
