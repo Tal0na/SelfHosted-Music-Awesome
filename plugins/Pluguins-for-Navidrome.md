@@ -6,10 +6,10 @@ A small collection of useful plugins that extend **self-hosted music servers** l
 
 ## 🧠 Navidrome ListenBrainz Daily Playlist
 
-🔗 [navidrome-listenbrainz-daily-playlist](https://github.com/kgarner7/navidrome-listenbrainz-daily-playlist)  
+🔗 [navidrome-listenbrainz-daily-playlist](https://github.com/kgarner7/navidrome-listenbrainz-daily-playlist)
 
-- **Open Source:** ✅ Yes  
-- **Price:** Free  
+- **Open Source:** ✅ Yes
+- **Price:** Free
 
 This repository contains a plugin for fetching daily playlists from ListenBrainz
 
@@ -19,8 +19,8 @@ This repository contains a plugin for fetching daily playlists from ListenBrainz
 
 🔗 [navidrome-lrclib-plugin](https://github.com/kepelet/navidrome-lrclib-plugin)
 
-- **Open Source:** ✅ Yes  
-- **Price:** Free  
+- **Open Source:** ✅ Yes
+- **Price:** Free
 
 Automatically **fetches and stores lyrics** for songs in your Navidrome library.
 
@@ -28,10 +28,10 @@ Automatically **fetches and stores lyrics** for songs in your Navidrome library.
 
 ## 🎮 discord-rich-presence-plugin
 
-🔗 [discord-rich-presence-plugin](https://github.com/navidrome/discord-rich-presence-plugin) 
+🔗 [discord-rich-presence-plugin](https://github.com/navidrome/discord-rich-presence-plugin)
 
-- **Open Source:** ✅ Yes  
-- **Price:** Free  
+- **Open Source:** ✅ Yes
+- **Price:** Free
 
 Displays the **music you're currently playing in Discord Rich Presence**.
 
@@ -40,8 +40,8 @@ Displays the **music you're currently playing in Discord Rich Presence**.
 ## 🤖 AudioMuse-AI-NV-plugin
 
 🔗 [AudioMuse-AI-NV-plugin](https://github.com/NeptuneHub/AudioMuse-AI-NV-plugin)
-- **Open Source:** ✅ Yes  
-- **Price:** Free  
+- **Open Source:** ✅ Yes
+- **Price:** Free
 
 Adds **AI-powered discovery and recommendations** based on your music library.
 
@@ -51,10 +51,21 @@ Adds **AI-powered discovery and recommendations** based on your music library.
 
 🔗 [apple-music-plugin](https://github.com/navidrome/apple-music-plugin)
 
-- **Open Source:** ✅ Yes  
-- **Price:** Free  
+- **Open Source:** ✅ Yes
+- **Price:** Free
 
 This plugin fetches artist and album metadata from Apple Music using free iTunes/Apple Music endpoints — no API key or authentication required. It provides artist biographies, images, similar artists, top songs, and album artwork by scraping Apple Music web pages and querying the iTunes Search/Lookup APIs.
+
+## 🧠 navidrome-mood-plugin
+
+🔗 [avidrome-mood-plugin](https://github.com/RFLundgren/navidrome-mood-plugin)
+
+- **Open Source:** ✅ Yes
+- **Price:** Free
+
+A Navidrome plugin that creates mood-based playlists using real audio analysis. It uses essentia-tensorflow with Discogs-EffNet embeddings to analyze your music library for mood, energy, BPM, and danceability, then automatically generates and refreshes 13 mood playlists.
+
+Works with any Subsonic-compatible client (Symfonium, Sublime Music, etc.).
 
 ---
 
