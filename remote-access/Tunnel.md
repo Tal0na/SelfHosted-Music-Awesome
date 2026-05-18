@@ -1,15 +1,13 @@
 # 🚇 Tunnel
-
 Expose your local server securely to the internet without opening router ports or needing a static IP.
 
 ---
 
 ## ☁️ Cloudflare Tunnel
-
 One of the most popular and reliable options. Routes traffic through Cloudflare's global network.
 
 ➡️ See the full guide here:
-**[__Cloudflare Tunnel__](__/deployment/tunnel/cloudflare.md__)**
+**[Cloudflare Tunnel](./tunnel/cloudflare.md)**
 
 Examples include:
 - No open ports or static IP required
@@ -20,11 +18,10 @@ Examples include:
 ---
 
 ## 🔒 Tailscale
-
 A mesh VPN built on WireGuard. Ideal for private access between your own devices.
 
 ➡️ See the full guide here:
-**[__Tailscale__](__/deployment/tunnel/tailscale.md__)**
+**[Tailscale](./tunnel/tailscale.md)**
 
 Examples include:
 - Private access without exposing anything to the public internet
@@ -35,11 +32,10 @@ Examples include:
 ---
 
 ## 🌐 Ngrok
-
 A quick and easy tunneling tool, great for testing and temporary access.
 
 ➡️ See the full guide here:
-**[__Ngrok__](__/deployment/tunnel/ngrok.md__)**
+**[Ngrok](./tunnel/ngrok.md)**
 
 Examples include:
 - Instant public URL for your local server
@@ -50,11 +46,10 @@ Examples include:
 ---
 
 ## ⚡ bore / frp / rathole
-
 Lightweight self-hosted tunnel alternatives for advanced users.
 
 ➡️ See the full guide here:
-**[__Self-hosted Tunnels__](__/deployment/tunnel/selfhosted.md__)**
+**[Self-hosted Tunnels](./tunnel/selfhosted.md)**
 
 Examples include:
 - Full control over your tunnel infrastructure
@@ -65,7 +60,6 @@ Examples include:
 ---
 
 ## ⚠️ Notes
-
 - Cloudflare Tunnel and Tailscale are recommended for most users
 - Tunnels can be combined with a Reverse Proxy for more control
 - Self-hosted tunnels require a VPS with a public IP as the relay
