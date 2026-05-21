@@ -63,4 +63,4 @@ Examples include:
 - Cloudflare Tunnel and Tailscale are recommended for most users
 - Tunnels can be combined with a Reverse Proxy for more control
 - Self-hosted tunnels require a VPS with a public IP as the relay
-- Always restrict access where possible — avoid exposing admin panels publicly
+- Always restrict access where possible, avoid exposing admin panels publicly
